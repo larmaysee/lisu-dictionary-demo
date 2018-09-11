@@ -2,33 +2,41 @@
 <html lang="en" ng-app="dictionary">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Desktop UI</title>
-    <link rel="stylesheet" href="./metro/dist/css/metro-all.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="./css/app.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Desktop UI</title>
+	<link rel="stylesheet" href="./metro/dist/css/metro-all.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="./css/app.css">
 </head>
 
 <body>
-    <ui-view>
+	<ui-view>
 
-    </ui-view>
+	</ui-view>
 
-    <script src="./js/angular_common.js"></script>
-    <script>
-        window.$ = window.jQuery = require('./js/jquery.min.js');
-    </script>
-    <script src="./node_modules/angular/angular.min.js"></script>
-    <script src="./node_modules/oclazyload/dist/ocLazyLoad.min.js"></script>
-    <script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./metro/dist/js/metro.min.js"></script>
-    <script src="./node_modules/pouchdb/dist/pouchdb.min.js"></script>
-    <script src="./app/bootstrap.js"></script>
-    <script src="./app/state.js"></script>
-    <script src="./app/routing.js"></script>
+	<script src="./js/angular_common.js"></script>
+	<script>
+		window.$ = window.jQuery = require('./js/jquery.min.js');
+	</script>
+	<script src="./node_modules/angular/angular.min.js"></script>
+	<script src="./node_modules/oclazyload/dist/ocLazyLoad.min.js"></script>
+	<script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./metro/dist/js/metro.min.js"></script>
+	<script src="./node_modules/pouchdb/dist/pouchdb.min.js"></script>
+	<script src="./app/bootstrap.js"></script>
+	<script src="./app/state.js"></script>
+	<script src="./app/routing.js"></script>
+	<script>
+		const {
+			ipcRenderer
+		} = require('electron');
+		ipcRenderer.on('message', function(event, text) {
+			console.log(text);
+		})
+	</script>
 </body>
 
 </html>

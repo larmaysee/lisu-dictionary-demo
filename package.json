@@ -8,10 +8,10 @@
 		"test": "test",
 		"pack": "electron-builder --dir",
 		"dist": "electron-builder",
-		"ng-publish": "build --mac --win -p always"
+		"gh-publish": "build --win --x64 -p always"
 	},
 	"build": {
-		"appId": "com.larmaysee.lisu-dict.app",
+		"appId": "com.larmaysee.lisu-dictionary.app",
 		"productName": "LI-SU Dictionary"
 	},
 	"repository": {
