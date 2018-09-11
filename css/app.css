@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+a:focus,
+button:focus {
+    border: 2px solid transparent !important;
+}
+
+.side-nav .compacted .top-nav {
+    padding-left: 48px !important;
+}
+
+.side-nav .compacted .suggest-box input {
+    display: none !important;
+}
+
+.side-nav .compacted .suggest-box button {
+    margin-bottom: 0px;
+}
+
+.side-nav .compacted .suggest-box .holder {
+    height: 48px;
+    line-height: 48px;
+}
+
+.navview .navview-pane button span,
+.side-nav .compacted .suggest-box .holder span {
+    font-size: 20px;
+}
+
+.navview .sidebar-nav {
+    border-right: 1px solid #d9d9d9;
+    background-color: white;
+    height: 100%;
+}
+
+.navview .suggest-box {
+    height: 48px;
+    background: #E5E5E5;
+}
+
+.navview .suggest-box input {
+    height: 48px;
+    background-color: #E5E5E5;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navview .suggest-box input:hover,
+.navview .suggest-box input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.side-nav .navview .sidebar-nav .data-list {
+    list-style: none;
+    margin-left: 0;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.side-nav .navview .sidebar-nav .data-list li a.active,
+.side-nav .navview .sidebar-nav .data-list li a:focus,
+.side-nav .navview .sidebar-nav .data-list li a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.side-nav .navview .sidebar-nav .data-list li a {
+    color: #353535;
+    line-height: 30px;
+    text-decoration: none;
+    display: inherit;
+    padding: 5px 16px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    outline: none;
+}
+
+.side-nav .navview .sidebar-nav .data-list li a:hover {
+    text-decoration: none;
+}
+
+.navview-content .top-nav {
+    width: 100%;
+    top: 0;
+    background: #E5E5E5;
+    height: 48px;
+    min-height: 48px;
+    padding-left: 280px;
+    right: 0;
+}
+
+.navview-content .top-nav .h-menu .toggle-menu button {
+    line-height: 48px;
+    height: 48px;
+    background-color: unset;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.navview-content .top-nav .h-menu .toggle-menu button.cog-button {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.navview-content .top-nav .h-menu .toggle-menu button span {
+    font-size: 20px;
+}
+
+.navview-content .top-nav .h-menu {
+    background: none;
+}
+
+.navview-content .top-nav .h-menu>li {
+    line-height: 32px;
+}
+
+.navview-content .content {
+    overflow-y: auto;
+    height: 92vh;
+    margin-top: 48px;
+}
+
+@media screen and (max-width:576px) {
+    .navview .navview-pane .sidebar-nav .navview-menu .home-fs {
+        line-height: 48px;
+        height: 48px;
+    }
+}

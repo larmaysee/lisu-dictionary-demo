@@ -1,0 +1,254 @@
+{
+	"data": [{
+			"eng": "ability",
+			"eng_type": [{
+				"type": "n"
+			}],
+			"lisu": "ꓐ ꓡˍ ꓟ꓿ ꓑꓷꓽ ꓢꓲ, ꓿",
+			"mm": "အရည်အချင်း၊ အစမ်းအစ",
+			"syntax": [{
+				"eng": "We have ability to forgive and love those who were cruel to us.",
+				"lisu": "ꓥꓪ ꓠꓴꓽ ꓔꓯ ꓟꓽ ꓙꓲ ꓟꓽ ꓜꓳꓽ ꓥꓶ.ˍ ꓟ ꓬꓰ ꓖꓶ ꓡ ꓢꓴ ꓡꓽ ꓞꓳ ꓖꓳ ꓕꓲ ꓧꓳꓽ ꓔꓯ ꓖꓽ ꓖꓶ ꓠꓲ, ꓠꓵ ꓐ ꓡˍ ꓟ ꓑꓷꓽ ꓢꓲ, ꓥꓪ ꓠꓴꓽ ꓔꓯ ꓙꓳˍ ꓡꓳ꓿ ",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "add",
+			"eng_type": [{
+				"type": "v"
+			}],
+			"lisu": "ꓔꓺ꓾ ꓚꓬꓺ꓾ ꓡꓴꓽ꓿",
+			"mm": "ထပ်ဖြည့် ၊ ပေါင်း",
+			"syntax": [{
+				"eng": "An additional item of food was added to the restaurant menu yesterday. ",
+				"lisu": " ꓮꓽ ꓟꓰ ꓕꓯ꓾ ꓜ ꓢꓰꓠ ꓗꓪ ꓟ ꓜꓽ ꓫꓵꓽ ꓟꓯ, ‐ꓠꓴ, ꓗꓪ ꓪꓳꓽ ꓔꓲ.ꓬꓲ ꓫꓵꓼ ꓕꓲ ꓙꓰꓽ ꓔꓺ ꓗꓷꓳ꓿(ꓪꓳꓽ ꓔꓲ.ꓠꓬ ꓚꓬ.ꓦ, ꓟ ꓪꓳꓽ ꓒꓬꓽ ꓕꓲ ꓗꓶ.ꓔꓯ ꓐꓯˍ ꓡꓳ꓿)",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "after",
+			"eng_type": [{
+					"type": "prep"
+				},
+				{
+					"type": "adj"
+				},
+				{
+					"type": "adv"
+				}
+			],
+			"lisu": " ꓗ ꓠꓯ.꓿ ꓗ ꓠꓯ.ꓢꓲꓺ ꓗꓪ꓿ ",
+			"mm": "နောက်မှာ ၊ နောက် ၊ နောက်ကနေ",
+			"syntax": [{
+					"eng": "After school they all went into the forest and picked the wood for fuel.",
+					"lisu": "ꓙꓳꓥꓽ ꓗꓪ ꓐꓰ ꓡꓽ ꓡ ꓗ ꓠꓯ.ꓬꓲ ꓪꓽ ꓮꓽ ꓙꓵ ꓠꓬ ꓢꓲ, ꓠꓯ ꓡꓲ ꓗꓪ ꓓꓵꓽ ꓙꓰ ꓢꓲ ꓢꓲ, ꓚꓳ.ꓧꓪ ꓖꓳꓺ ꓬꓰˍ ꓡꓳ꓿ ",
+					"mm": ""
+				},
+				{
+					"eng": "Several years after the war, the country became prosperous again.",
+					"lisu": "ꓟꓯꓼ ꓟꓶꓽ ꓙꓽ ꓖꓴ ꓡꓰ ꓗ ꓠꓯ, ꓢ ꓡꓲ ꓘꓳꓼ ꓕꓯ ꓬꓲ ꓪꓽ ꓗꓴꓷ ꓠꓬ ꓝꓮꓲ ꓪꓴꓽ ꓟꓴ ꓡꓻꓳ꓿",
+					"mm": ""
+				}
+			]
+		},
+		{
+			"eng": "allow",
+			"eng_type": [{
+				"type": "v"
+			}],
+			"lisu": " ꓖꓶ (ꓬꓰ)꓾ ꓖꓶ(ꓙꓰ)꓿ ",
+			"mm": "ခွင့်ပြု",
+			"syntax": [{
+				"eng": "Acha’ parents didn’t allow her to go out at night.",
+				"lisu": " ꓟꓶ ꓘꓶ ꓠꓯ ꓞꓲ, ꓡꓰ ꓕꓯ꓾ ꓮ‐ ꓛ ꓔꓯ ꓬꓲ ꓐ, ꓐ ꓟ, ꓟ ꓡꓰ ꓬꓲ ꓐꓽ ꓟꓽ ꓖꓶ ꓓꓳ꓿ ",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "am",
+			"eng_type": [{
+				"type": "v-be"
+			}],
+			"lisu": " ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ꓿ ",
+			"mm": "ဖြစ်သည်၊ ရှိသည်၊ နေထိုင်သည်။",
+			"syntax": [{
+					"eng": "I am a school teacher.",
+					"lisu": " ꓥꓪ ꓠꓬ ꓙꓳꓥꓽ ꓟ.ꓒ ꓕꓲ ꓣꓳ ꓥ ꓡꓳ꓿ ",
+					"mm": ""
+				},
+				{
+					"eng": "Where is my wallet? ",
+					"lisu": "ꓥꓪ ꓒꓴ ꓗꓶꓺ ꓕꓴꓽ ꓮ ꓗꓪ ꓓ, ꓡ ? ",
+					"mm": ""
+				},
+				{
+					"eng": "You are in Myanmar, but I am in the USA.",
+					"lisu": "ꓠꓴ ꓠꓬ ꓡꓳ‐ ꓟꓲ ꓗꓴꓷ ꓗꓪ ꓔꓬ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ ꓥꓪ ꓠꓽ ꓟꓷꓽ ꓗꓴꓷꓼ ꓗꓪ ꓔꓬ ꓡꓳ꓿ ",
+					"mm": ""
+				}
+			]
+		},
+		{
+			"eng": "america",
+			"eng_type": [{
+				"type": "n"
+			}],
+			"lisu": " ꓟꓷꓽ ꓚꓷꓴ꓿ ",
+			"mm": "အမေရိကား၊ အမေရိကန်",
+			"syntax": [{
+				"eng": "The U.S.A. is located inside North America.",
+				"lisu": " ꓟꓷꓽ ꓗꓴꓷ ꓠꓬ ꓡꓳ ꓪꓴ.ꓟꓷꓽ ꓚꓷꓴ ꓘꓴꓽ ꓗꓪ ꓥ ꓡꓳ꓿ ",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "american",
+			"eng_type": [{
+				"type": "n"
+			}],
+			"lisu": " ꓟꓷꓽ ꓚꓷꓴ ꓒ꓿",
+			"mm": "အမေရိကန် နိုင်ငံသား။",
+			"syntax": [{
+				"eng": "People who live in the U.S.A. are called Americans.",
+				"lisu": "ꓟꓷꓽ ꓗꓴꓷ ꓠꓯꓸꓼ ꓔꓬ ꓢꓴ ꓑꓺ ꓫꓬꓼ ꓡꓽ ꓞꓳ ꓮꓽ ꓙꓵ ꓔꓯ ꓮꓽ‐ ꓟꓯ‐ ꓡꓲ‐ ꓘꓯꓠ ꓐꓯˍ ꓡꓳ꓿",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "annual",
+			"eng_type": [{
+				"type": "adj"
+			}],
+			"lisu": " ꓘꓳꓼ ꓚꓳ꓿ ꓕꓲ ꓘꓳꓼ ꓕꓲ ꓧꓪ, ꓬꓰˍ ꓟ꓾ ꓒꓬꓱꓼˍ ꓟ꓿ ",
+			"mm": "နှစ်ပတ်လည်။",
+			"syntax": [{
+				"eng": " Our company’ s annual meeting will be held today. ",
+				"lisu": "ꓣꓳꓽ ꓗꓳ‐ ꓑ‐ ꓠꓰ(ꓗꓳꓥ ꓢꓶꓺ) ꓘꓳꓼ ꓚꓳꓺ ꓜꓲꓼ ꓓꓴ ꓠꓬ ꓠꓬꓲ.ꓟꓲ ꓥꓳ꓿ ",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "another",
+			"eng_type": [{
+					"type": "adj"
+				},
+				{
+					"type": "pron"
+				}
+			],
+			"lisu": " ꓠꓱ . ꓐꓯꓼ ( ꓕꓲ ꓟ ) ꓿ ꓝꓮꓲ ( ꓕꓲ ꓟ꓾ ꓕꓲ ꓣꓳ ) ꓿ ",
+			"mm": "အခြား၊ နောက်ထပ်။",
+			"syntax": [{
+				"eng": " Do you have another one? ",
+				"lisu": "ꓠꓴ ꓔꓯ ꓠꓱ . ꓐꓯꓼ ꓕꓲ ꓟ ꓙꓳˍ ꓢꓰꓽ ꓡ? ",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "answer",
+			"eng_type": [{
+					"type": "v"
+				},
+				{
+					"type": "n"
+				}
+			],
+			"lisu": " ꓒꓳ, ꓖꓶ꓾ ꓒꓳ, ꓘꓶ꓿ ꓓꓽ ꓔꓳ,꓾ ꓓꓽ ꓔꓳ, ꓘꓶ꓿",
+			"mm": "အဖြေပေး ၊ ပြန်ကြား။",
+			"syntax": [{
+				"eng": "“ Of course, I will.” John answered. ",
+				"lisu": "ꓬꓳ‐ꓦ ꓡꓰ꓾ “ꓥ ꓡꓯ꓾ ꓥꓪ ꓬꓰˍ ꓥꓳ꓿” ꓐꓰ ꓒꓳ, ꓖꓶˍ ꓡꓳ꓿ ",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "anticipate",
+			"eng_type": [{
+				"type": "v"
+			}],
+			"lisu": "ꓦ ꓐꓬꓱꓽ ꓟꓳ ꓥꓳꓺ ꓡꓳ.꓿",
+			"mm": "တင်ကြိုစိတ်ကူးမျော်မှန်း၊ တင်ကြိုစိတ်ကူးသိမြင် ။",
+			"syntax": [{
+				"eng": "“ In fact, that Hollywood movie producer did not anticipated his last movie would fetch hundreds of million dollars.",
+				"lisu": "ꓬꓲ ꓚꓽ ꓐꓯ ꓕꓯ꓾ ꓧꓳ‐ꓡꓲ‐ꓪꓴꓼ ꓢꓯ. ꓐꓬꓱꓽ ꓫꓬ, ꓓꓳꓺ ꓒ ꓖꓳ ꓕꓲ ꓣꓳ ꓠꓬ꓾ ꓬꓲ ꓢꓯ. ꓐꓬꓱꓽ ꓬꓲ ꓟꓶ ꓕꓱ ꓕꓲ ꓟ ꓗꓪ ꓐꓰ ꓒꓴ ꓬꓲ ꓦꓬꓻ ꓟꓲ‐ꓡꓬ ꓓꓳ‐ꓡ ꓫꓺ ꓟꓶꓻˍ ꓓꓴ ꓐꓰ ꓟꓽ ꓥꓳꓺ ꓡꓳ. ꓔ ꓫꓵꓽ ꓥꓳ꓿",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "are",
+			"eng_type": [{
+				"type": "v-be"
+			}],
+			"lisu": "ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ꓿",
+			"mm": "ဖြစ်သည်၊ ရှိသည်၊ နေထိုင်သည်။",
+			"syntax": [{
+					"eng": "You are a hospital nurse.",
+					"lisu": "ꓠꓴ ꓠꓬ ꓠꓯ ꓞꓲꓼ ꓦꓲ ꓗꓪ ꓟ ꓠ,‐ꓢꓶ ꓟꓺ  ꓕꓲ ꓣꓳ ꓥ ꓡꓳ꓿",
+					"mm": ""
+				},
+				{
+					"eng": "Where are the patients?",
+					"lisu": " ꓞꓳ ꓠꓻ ꓐꓴ ꓮ ꓡꓲ ꓗꓪ ꓥ ꓡ?",
+					"mm": ""
+				},
+				{
+					"eng": "They are inside the ward.",
+					"lisu": " ꓬꓲ ꓪꓽ ꓠꓬ ꓞꓳ ꓠꓻ ꓬꓲꓼ ꓔ ꓗꓳ, ꓠꓯꓸꓼ ꓗꓪ ꓥ ꓡꓳ꓿",
+					"mm": ""
+				}
+			]
+		},
+		{
+			"eng": "art",
+			"eng_type": [{
+				"type": "n"
+			}],
+			"lisu": " ꓬꓲꓸꓼ ꓫꓴꓸꓼ꓾ ꓚꓰꓼ ꓜꓰꓺ ꓜꓯꓺ ꓑꓵ, ꓤ. ꓢꓷ ꓠꓲ,꓿ ꓟꓷꓽ ꓫꓴꓸꓼ꓿ ꓢꓷ ꓠꓲ,꓿",
+			"mm": "အနုပညာ။",
+			"syntax": [{
+				"eng": "Art is the expression of human creative skill and imagination, typically in a visual form such as  painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power.",
+				"lisu": "ꓬꓲꓸꓼ ꓫꓴꓸꓼ ꓐꓯˍ ꓟ ꓠꓬ꓾ ꓚꓰꓼ ꓜꓯꓻ ꓡꓯꓼ ꓟꓬꓱꓽ ꓢꓷ ꓠꓲ, ꓐꓰ ꓦ ꓐꓬꓱꓽ ꓐꓴ ꓔꓯ ꓬꓲ ꓑꓰ, ꓬꓰ ꓓꓳ ꓡ ꓢꓲ꓾ ꓛꓳꓽ ꓟꓳ ꓢꓴ ꓠꓲ, ꓟ ꓔꓯ ꓡꓵ, ꓔꓴ ꓡꓵ, ꓢꓴꓺ ꓐ ꓡˍ ꓟ ꓐꓲꓻ ꓒꓬꓱꓽ ꓐꓰ ꓢꓯꓼ ꓪꓽ ꓗꓴꓺ ꓓꓯ, ꓟ ꓡꓯꓼ ꓟꓬꓱꓽ ꓐꓴ ꓔꓯ ꓐꓯˍ ꓡꓳ꓿ ꓔꓯ ꓑꓲꓽ꓾ ꓚꓰꓼ ꓜꓯꓻ ꓐꓳ ꓔ ꓟ ꓟꓴꓽ ꓖꓪꓽ ꓐꓰ ꓘꓶ ꓪꓰ ꓐꓰ ꓔꓯꓺ ꓐꓬꓱꓽ drama ꓾ ꓤ. ꓦ,꓾ ꓧꓪꓸꓼ ꓦ, ꓟ ꓐꓬꓱꓽ ꓒꓬꓽ꓾ ꓜꓰꓺ ꓔ ꓑꓵ, ꓔ ꓟ ꓐꓬꓱꓽ ꓑꓵ, sculptures ꓡꓰꓳ ꓫꓵꓽ ꓔꓯ ꓐꓯˍ ꓡꓳ꓿ The Lisu Musical Artists association ꓡꓲ‐ꓢꓴ ꓟꓴꓽ ꓖꓪ ꓐꓰ ꓟꓬꓴ, ꓜꓲꓼ ꓗꓴ. ꓒ ꓐꓴ ꓙꓻ ꓡꓯꓼ ꓘꓳ ꓜꓴ꓿ The Lisu Artists Association ꓡꓲ‐ꓢꓴ ꓐꓬꓱꓽ ꓤ. ꓒ ꓙ ꓡꓯꓼ ꓘꓳ ꓜꓴ꓿ ",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "as",
+			"eng_type": [{
+				"type": "adv"
+			}],
+			"lisu": "ꓫꓱꓸꓼ꓾ ꓡꓰ ꓐꓰ꓾ ꓒꓬꓱꓽ ꓗꓪ꓾ ꓕꓲ ꓒꓳ, ꓗꓪ ꓐꓰ꓿",
+			"mm": "အဖြစ်၊ ကဲ့သို့၊ လို၊ အသွင်ဖြင့်။",
+			"syntax": [{
+				"eng": "Once upon a time, there it rained hailstones as big as a water melon in a village.",
+				"lisu": "ꓮꓽ ꓠꓱ ꓕꓯ꓾ ꓞꓳ ꓘ, ꓕꓲ ꓟ ꓗꓪ ꓒꓵꓽ ꓜꓲꓽ ꓢꓶ ꓡꓰ ꓐꓰ ꓕꓱ ꓪꓴꓻ ꓗ, ꓫꓵꓽ ꓪꓽ ꓢꓶ ꓟꓶ ꓦ ꓬꓯꓼˍ ꓙꓳꓽ꓿(ꓒꓵꓽ ꓜꓲꓽ ꓢꓶ ꓫꓱ. ꓫꓱꓸꓼ ꓪꓴꓽˍ ꓟ꓿)",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "ask",
+			"eng_type": [{
+				"type": "v"
+			}],
+			"lisu": "1. ꓠ ꓠꓬꓲ꓿ 2. ꓓꓰꓽ꓾ ꓖꓶꓻ ꓬꓲꓼ꓿",
+			"mm": "မေး၊ မေးမြန်း။",
+			"syntax": [{
+				"eng": "Please ask the stranger where he is from.",
+				"lisu": " ꓞꓳ ꓜꓲꓽ ꓕꓱ ꓕꓲ ꓣꓳ ꓔꓯ ꓬꓲ ꓮ ꓡꓲ ꓗꓪ ꓚꓳ. ꓡˍ ꓡꓽ꓾ ꓠꓺ ꓠꓬꓲ꓿",
+				"mm": ""
+			}]
+		},
+		{
+			"eng": "authority",
+			"eng_type": [{
+				"type": "n"
+			}],
+			"lisu": "ꓙꓵꓽ ꓪꓽ꓿",
+			"mm": "အာဏာ",
+			"syntax": [{
+				"eng": "What authority do you have that you order me to do this and that?",
+				"lisu": " ꓥꓪ ꓔꓯ ꓕꓱ ꓡꓱ ꓬꓰ꓾ ꓖꓳꓡꓱ ꓬꓰ ꓐꓰ ꓝꓲꓺ ꓠ , ꓟ꓾ ꓕꓵꓼ ꓪꓽ ꓖꓶ ꓠ, ꓟ ꓠꓴ ꓔꓯ ꓮ . ꓫꓵꓽ ꓙꓵꓽ ꓪꓽ ꓕꓲ ꓟ ꓙꓳˍ ꓡ ? ",
+				"mm": ""
+			}]
+		}
+	]
+}
