@@ -26,9 +26,9 @@
 	"author": "larmaysee",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/LarMaySee/dic-ui/issues"
+		"url": "https://github.com/LarMaySee/lisu-dictionary/issues"
 	},
-	"homepage": "https://github.com/LarMaySee/dic-ui#readme",
+	"homepage": "https://github.com/LarMaySee/lisu-dictionary#readme",
 	"dependencies": {
 		"@uirouter/angularjs": "^1.0.20",
 		"angular": "^1.7.2",
