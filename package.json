@@ -1,21 +1,22 @@
 {
-	"name": "dict-ui",
-	"version": "1.0.0",
+	"name": "lisu-dictionary",
+	"version": "0.1.0",
 	"description": "",
 	"main": "app.js",
 	"scripts": {
 		"start": "electron .",
 		"test": "test",
 		"pack": "electron-builder --dir",
-		"dist": "electron-builder"
+		"dist": "electron-builder",
+		"ng-publish": "build --mac --win -p always"
 	},
 	"build": {
-		"appId": "com.dict.app",
-		"productName": "Dict UI"
+		"appId": "com.larmaysee.lisu-dict.app",
+		"productName": "LI-SU Dictionary"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/LarMaySee/dic-ui.git"
+		"url": "git+https://github.com/LarMaySee/lisu-dictionary.git"
 	},
 	"keywords": [
 		"dictionary",
