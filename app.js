@@ -20,9 +20,11 @@ app.on("window-all-closed", function () {
 	}
 });
 
+
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = "info";
 log.info("App starting...");
+log.warn('getVersion', app.getVersion())
 
 // initialization and is ready to create browser windows.
 function createDefaultWindow() {
@@ -44,13 +46,10 @@ function createDefaultWindow() {
 	});
 }
 
-// if (isDev) {
-// 	autoUpdater.updateConfigPath = path.join(APP_PATH, "app-update.yml");
-// }
-
 app.on("ready", function () {
 	createDefaultWindow();
 	autoUpdater.checkForUpdates();
+	// autoUpdater.checkForUpdatesAndNotify();
 });
 
 function sendStatusToWindow(text) {
@@ -62,22 +61,57 @@ autoUpdater.on("checking-for-update", () => {
 	sendStatusToWindow("Checking for update");
 });
 autoUpdater.on("update-available", info => {
+	log.info(info)
 	sendStatusToWindow("Update Available");
-});
-autoUpdater.on("update-not-available", info => {
-	sendStatusToWindow("Update Not Available");
-});
-autoUpdater.on("error", err => {
-	sendStatusToWindow("You got error.");
+
+	var index = dialog.showMessageBox(mainWindow, {
+		type: 'info',
+		buttons: ['Ok'],
+		title: "Company Tech Solution",
+		message: 'A new version of company app is getting downloaded bla bla bla.'
+	});
+
+	if (index === 1) {
+		return;
+	}
+
+	autoUpdater.on('update-downloaded', function (event, releaseName) {
+
+		// # confirm install or not to user
+		var index = dialog.showMessageBox(mainWindow, {
+			type: 'info',
+			buttons: ['Restart', 'Later'],
+			title: "Company Tech Solution",
+			message: 'New version has been downloaded. Please restart the application to apply the updates.',
+			detail: releaseName
+		});
+
+		if (index === 1) {
+			return;
+		}
+
+		// # restart app, then update will be applied
+		autoUpdater.quitAndInstall();
+		ipcMain.on("quitAndInstall", (event, arg) => {
+			autoUpdater.quitAndInstall();
+		});
+	});
 });
 
-autoUpdater.on("download-progress", progressObj => {
-	sendStatusToWindow("You download progress");
-});
-autoUpdater.on("update-downloaded", info => {
-	autoUpdater.quitAndInstall();
-});
+// autoUpdater.on("update-not-available", info => {
+// 	sendStatusToWindow("Update Not Available");
+// });
+// autoUpdater.on("error", err => {
+// 	sendStatusToWindow("You got error.");
+// });
 
-ipcMain.on("quitAndInstall", (event, arg) => {
-	autoUpdater.quitAndInstall();
-});
+// autoUpdater.on("download-progress", progressObj => {
+// 	sendStatusToWindow("You download progress");
+// });
+// autoUpdater.on("update-downloaded", info => {
+// 	autoUpdater.quitAndInstall();
+// });
+
+// ipcMain.on("quitAndInstall", (event, arg) => {
+// 	autoUpdater.quitAndInstall();
+// });

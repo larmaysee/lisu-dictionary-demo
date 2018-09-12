@@ -1,7 +1,7 @@
 {
 	"name": "lisu-dictionary",
 	"version": "0.3.4",
-	"description": "",
+	"description": "LI-SU Myanmar mini Dictionary for window.",
 	"main": "app.js",
 	"scripts": {
 		"start": "electron .",
