@@ -1,6 +1,6 @@
 {
 	"name": "lisu-dictionary",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"description": "",
 	"main": "app.js",
 	"scripts": {
@@ -32,6 +32,7 @@
 	"dependencies": {
 		"@uirouter/angularjs": "^1.0.20",
 		"angular": "^1.7.2",
+		"electron-is-dev": "^0.3.0",
 		"electron-log": "^2.2.17",
 		"electron-updater": "^3.1.2",
 		"oclazyload": "^1.1.0",

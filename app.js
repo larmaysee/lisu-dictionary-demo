@@ -10,6 +10,8 @@ const log = require('electron-log');
 const {
 	autoUpdater
 } = require("electron-updater");
+const isDev = require('electron-is-dev');
+
 var mainWindow = null;
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
@@ -17,6 +19,7 @@ app.on('window-all-closed', function () {
 		app.quit();
 	}
 });
+
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = 'info';
 log.info('App starting...');
@@ -41,6 +44,10 @@ app.on('ready', function () {
 	});
 });
 
+if (isDev) {
+	autoUpdater.updateConfigPath = path.join(APP_PATH, 'app-update.yml');
+}
+
 function sendStatusToWindow(text) {
 	log.info(text);
 	mainWindow.webContents.send('message', text);
@@ -49,6 +56,7 @@ function sendStatusToWindow(text) {
 app.on('ready', function () {
 	autoUpdater.checkForUpdates();
 });
+
 autoUpdater.on('checking-for-update', () => {
 	sendStatusToWindow("Checking for update");
 })
