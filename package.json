@@ -1,13 +1,13 @@
 {
 	"name": "lisu-dictionary",
-	"version": "0.1.0",
+	"version": "0.3.0",
 	"description": "",
 	"main": "app.js",
 	"scripts": {
 		"start": "electron .",
 		"test": "test",
 		"pack": "electron-builder --dir",
-		"dist": "electron-builder",
+		"dist": "electron-builder --x64",
 		"gh-publish": "build --win --x64 -p always"
 	},
 	"build": {

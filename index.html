@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Desktop UI</title>
+	<title>DICTIONARY</title>
 	<link rel="stylesheet" href="./metro/dist/css/metro-all.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<link rel="stylesheet" href="./css/app.css">
@@ -13,7 +13,6 @@
 
 <body>
 	<ui-view>
-
 	</ui-view>
 
 	<script src="./js/angular_common.js"></script>
@@ -33,7 +32,7 @@
 		const {
 			ipcRenderer
 		} = require('electron');
-		ipcRenderer.on('message', function(event, text) {
+		ipcRenderer.on('message', function (event, text) {
 			console.log(text);
 		})
 	</script>
