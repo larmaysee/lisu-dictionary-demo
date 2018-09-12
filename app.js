@@ -3,7 +3,8 @@ const {
 	BrowserWindow,
 	Menu,
 	protocol,
-	ipcMain
+	ipcMain,
+	dialog
 } = require("electron");
 
 const log = require("electron-log");
