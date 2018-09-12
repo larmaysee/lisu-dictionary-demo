@@ -25,7 +25,7 @@ autoUpdater.logger.transports.file.level = 'info';
 log.info('App starting...');
 
 // initialization and is ready to create browser windows.
-app.on('ready', function () {
+function createDefaultWindow() {
 	mainWindow = new BrowserWindow({
 		width: 650,
 		height: 500,
@@ -42,20 +42,22 @@ app.on('ready', function () {
 	mainWindow.on('closed', function () {
 		mainWindow = null;
 	});
-});
+}
 
 if (isDev) {
 	autoUpdater.updateConfigPath = path.join(APP_PATH, 'app-update.yml');
 }
 
+
+app.on('ready', function () {
+	createDefaultWindow();
+	autoUpdater.checkForUpdates();
+});
+
 function sendStatusToWindow(text) {
 	log.info(text);
 	mainWindow.webContents.send('message', text);
 }
-
-app.on('ready', function () {
-	autoUpdater.checkForUpdates();
-});
 
 autoUpdater.on('checking-for-update', () => {
 	sendStatusToWindow("Checking for update");
@@ -77,5 +79,9 @@ autoUpdater.on('download-progress', (progressObj) => {
 
 })
 autoUpdater.on('update-downloaded', (info) => {
+	autoUpdater.quitAndInstall();
+})
+
+ipcMain.on("quitAndInstall", (event, arg) => {
 	autoUpdater.quitAndInstall();
 })
