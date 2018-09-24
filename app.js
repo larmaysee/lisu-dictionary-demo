@@ -1,24 +1,26 @@
 const {
-	app,
-	BrowserWindow,
-	Menu,
-	protocol,
-	ipcMain,
-	dialog
+    app,
+    BrowserWindow,
+    Menu,
+    protocol,
+    Notification,
+    ipcMain,
+    dialog
 } = require("electron");
 
 const log = require("electron-log");
 const {
-	autoUpdater
+    autoUpdater
 } = require("electron-updater");
+const version = app.getVersion();
 const isDev = require("electron-is-dev");
 
 var mainWindow = null;
 // Quit when all windows are closed.
 app.on("window-all-closed", function () {
-	if (process.platform != "darwin") {
-		app.quit();
-	}
+    if (process.platform != "darwin") {
+        app.quit();
+    }
 });
 
 
@@ -29,90 +31,67 @@ log.warn('getVersion', app.getVersion())
 
 // initialization and is ready to create browser windows.
 function createDefaultWindow() {
-	mainWindow = new BrowserWindow({
-		width: 650,
-		height: 500,
-		"min-width": 650,
-		"min-height": 500,
-		"accept-first-mouse": true,
-		"title-bar-style": "hidden"
-	});
-	mainWindow.loadURL("file://" + __dirname + "/index.html");
-	// Open the DevTools.
-	mainWindow.openDevTools();
-	mainWindow.setMenu(null);
-	// Emitted when the window is closed.
-	mainWindow.on("closed", function () {
-		mainWindow = null;
-	});
+    mainWindow = new BrowserWindow({
+        width: 650,
+        height: 500,
+        "min-width": 650,
+        "min-height": 500,
+        "accept-first-mouse": true,
+        "title-bar-style": "hidden"
+    });
+    mainWindow.loadURL("file://" + __dirname + "/index.html");
+    // Open the DevTools.
+    // mainWindow.openDevTools();
+    mainWindow.setMenu(null);
+    // Emitted when the window is closed.
+    mainWindow.on("closed", function () {
+        mainWindow = null;
+    });
 }
 
 app.on("ready", function () {
-	createDefaultWindow();
-	autoUpdater.checkForUpdates();
-	// autoUpdater.checkForUpdatesAndNotify();
+    createDefaultWindow();
+    autoUpdater.checkForUpdates();
+    // autoUpdater.checkForUpdatesAndNotify();
 });
 
 function sendStatusToWindow(text) {
-	log.info(text);
-	mainWindow.webContents.send("message", text);
+    log.info(text);
+    mainWindow.webContents.send("message", text);
 }
 
 autoUpdater.on("checking-for-update", () => {
-	sendStatusToWindow("Checking for update");
+    sendStatusToWindow("Checking for update");
 });
+
 autoUpdater.on("update-available", info => {
-	log.info(info)
-	sendStatusToWindow("Update Available");
-
-	var index = dialog.showMessageBox(mainWindow, {
-		type: 'info',
-		buttons: ['Ok'],
-		title: "Company Tech Solution",
-		message: 'A new version of company app is getting downloaded bla bla bla.'
-	});
-
-	if (index === 1) {
-		return;
-	}
-
-	autoUpdater.on('update-downloaded', function (event, releaseName) {
-
-		// # confirm install or not to user
-		var index = dialog.showMessageBox(mainWindow, {
-			type: 'info',
-			buttons: ['Restart', 'Later'],
-			title: "Company Tech Solution",
-			message: 'New version has been downloaded. Please restart the application to apply the updates.',
-			detail: releaseName
-		});
-
-		if (index === 1) {
-			return;
-		}
-
-		// # restart app, then update will be applied
-		autoUpdater.quitAndInstall();
-		ipcMain.on("quitAndInstall", (event, arg) => {
-			autoUpdater.quitAndInstall();
-		});
-	});
+    sendStatusToWindow("Update Available");
 });
 
-// autoUpdater.on("update-not-available", info => {
-// 	sendStatusToWindow("Update Not Available");
-// });
-// autoUpdater.on("error", err => {
-// 	sendStatusToWindow("You got error.");
-// });
+autoUpdater.on('update-not-available', (info) => {
+    sendStatusToWindow('Update not available.');
+})
+autoUpdater.on('error', (err) => {
+    sendStatusToWindow('Error in auto-updater. ' + err);
+})
+autoUpdater.on('download-progress', (progressObj) => {
+    let log_message = "Download speed: " + progressObj.bytesPerSecond;
+    log_message = log_message + ' - Downloaded ' + progressObj.percent + '%';
+    log_message = log_message + ' (' + progressObj.transferred + "/" + progressObj.total + ')';
+    sendStatusToWindow(log_message);
+})
 
-// autoUpdater.on("download-progress", progressObj => {
-// 	sendStatusToWindow("You download progress");
-// });
-// autoUpdater.on("update-downloaded", info => {
-// 	autoUpdater.quitAndInstall();
-// });
-
-// ipcMain.on("quitAndInstall", (event, arg) => {
-// 	autoUpdater.quitAndInstall();
-// });
+autoUpdater.on('update-downloaded', function (event, releaseName) {
+    let message = app.getName() + ' ' + releaseName + ' is now available. It will be installed the next time you restart the application.';
+    dialog.showMessageBox({
+        type: 'question',
+        buttons: ['Install and Relaunch', 'Later'],
+        defaultId: 0,
+        message: 'A new version of ' + app.getName() + ' has been downloaded',
+        detail: message
+    }, response => {
+        if (response === 0) {
+            setTimeout(() => autoUpdater.quitAndInstall(), 1);
+        }
+    });
+});

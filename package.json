@@ -1,44 +1,44 @@
 {
-	"name": "lisu-dictionary",
-	"version": "0.3.5",
-	"description": "LI-SU Myanmar mini Dictionary for window.",
-	"main": "app.js",
-	"scripts": {
-		"start": "electron .",
-		"test": "test",
-		"pack": "electron-builder --dir",
-		"dist": "electron-builder --x64",
-		"gh-publish": "build --win --x64 -p always"
-	},
-	"build": {
-		"appId": "com.larmaysee.lisu-dictionary.app",
-		"productName": "LI-SU Dictionary"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/LarMaySee/lisu-dictionary.git"
-	},
-	"keywords": [
-		"dictionary",
-		"start",
-		"quick"
-	],
-	"author": "larmaysee",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/LarMaySee/lisu-dictionary/issues"
-	},
-	"homepage": "https://github.com/LarMaySee/lisu-dictionary#readme",
-	"dependencies": {
-		"@uirouter/angularjs": "^1.0.20",
-		"angular": "^1.7.2",
-		"electron-is-dev": "^0.3.0",
-		"electron-log": "^2.2.17",
-		"electron-updater": "^3.1.2",
-		"oclazyload": "^1.1.0",
-		"pouchdb": "^7.0.0"
-	},
-	"devDependencies": {
-		"electron-builder": "^20.28.4"
-	}
+    "name": "lisu-dictionary",
+    "version": "0.3.9",
+    "description": "LI-SU Myanmar mini Dictionary for window.",
+    "main": "app.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "test",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder --x64",
+        "gh-publish": "build --win --x64 -p always"
+    },
+    "build": {
+        "appId": "com.larmaysee.lisu-dictionary.app",
+        "productName": "LI-SU Dictionary"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LarMaySee/lisu-dictionary.git"
+    },
+    "keywords": [
+        "dictionary",
+        "start",
+        "quick"
+    ],
+    "author": "larmaysee",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LarMaySee/lisu-dictionary/issues"
+    },
+    "homepage": "https://github.com/LarMaySee/lisu-dictionary#readme",
+    "dependencies": {
+        "@uirouter/angularjs": "^1.0.20",
+        "angular": "^1.7.2",
+        "electron-is-dev": "^0.3.0",
+        "electron-log": "^2.2.17",
+        "electron-updater": "^3.1.2",
+        "oclazyload": "^1.1.0",
+        "pouchdb": "^7.0.0"
+    },
+    "devDependencies": {
+        "electron-builder": "^20.28.4"
+    }
 }
