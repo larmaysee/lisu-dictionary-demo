@@ -1,103 +1,108 @@
 <div class="side-nav p-0" style="height: 100vh; overflow: hidden">
-	<div data-role="navview" data-expanded="fs" data-compact="false" data-toggle="#pane-toggle">
-		<nav class="navview-pane">
-			<div class="sidebar-nav">
-				<div class="suggest-box">
-					<input type="text" class="searchDic" ng-keyup="searchData(searchWord)" ng-model="searchWord" placeholder="Search">
-					<button class="holder">
-						<span class="mif-apps"></span>
-					</button>
-				</div>
-				<ul class="data-list">
-					<li ng-repeat="key_word in key_words | filter:searchWord">
-						<a ng-click="clickData(key_word.eng)" ng-class="{'active': ( $first && !activeClass)  || activeClass === key_word.eng}">
-							<span>{{ key_word.eng }}</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+  <div data-role="navview" data-expanded="fs" data-compact="false" data-toggle="#pane-toggle">
+    <nav class="navview-pane">
+      <div class="sidebar-nav">
+        <div class="suggest-box">
+          <input type="text" class="searchDic" ng-keyup="searchData(searchWord)" ng-model="searchWord" placeholder="Search word">
+          <button class="holder">
+            <span class="mif-apps"></span>
+          </button>
+        </div>
+        <ul class="data-list">
+          <li ng-repeat="key_word in key_words | filter:searchWord">
+            <a ng-click="clickData(key_word.eng)" ng-class="{'active': ( $first && !activeClass)  || activeClass === key_word.eng}">
+              <span>{{ key_word.eng }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-		<div class="navview-content">
-			<div class="pos-fixed top-nav d-flex flex-justify-between">
-				<ul class="h-menu">
-					<li class="toggle-menu">
-						<button class="cog-button">
-							<span class="mif-apps"></span>
-						</button>
-					</li>
-				</ul>
-				<ul class="h-menu">
-					<li class="toggle-menu">
-						<button class="cog-button" ng-click="mailBox()">
-							<span class="mif-mail"></span>
-						</button>
-					</li>
-					<li class="toggle-menu">
-						<button class="cog-button" ng-click="settingDialog()">
-							<span class="mif-cog"></span>
-						</button>
-						<!-- <a ui-sref="setting" class="cog-button"><span class="mif-cog"></span></a> -->
-					</li>
-				</ul>
-			</div>
-			<div class="pt-5 pb-10 content pl-4-fs pr-4-fs">
-				<div class="inner-content p-10-md">
-					<div ng-repeat="syntaxData in eng_word" ng-if="$first">
-						<p class="h4">
-							<strong style="border-bottom: 2px solid #393939;line-height:35px;padding-bottom: 10px;">
-								<span class="mif-books"></span> {{ syntaxData.eng }}
-								<span ng-repeat="type in syntaxData.eng_type">
-									( {{ type.type }} )
-								</span>
-							</strong>
-						</p>
-						<br>
-						<p class="h6">{{ syntaxData.lisu }}</p>
-						<p class="h6">
-							<b>{{ syntaxData.mm }}</b></p>
-						<br>
-						<p ng-repeat="eg in syntaxData.syntax">
-							<span>{{ eg.eng }}</span><br>
-							<span>{{ eg.lisu }}</span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="navview-content">
+      <div class="pos-fixed top-nav d-flex flex-justify-between">
+        <ul class="h-menu">
+          <li class="toggle-menu">
+            <button class="cog-button">
+              <span class="mif-apps"></span>
+            </button>
+          </li>
+        </ul>
+        <ul class="h-menu">
+          <li class="toggle-menu">
+            <button class="cog-button">
+              <span class="mif-plus"></span>
+            </button>
+          </li>
+          <li class="toggle-menu">
+            <button class="cog-button" ng-click="mailBox()">
+              <span class="mif-mail"></span>
+            </button>
+          </li>
+          <li class="toggle-menu">
+            <button class="cog-button" ng-click="settingDialog()">
+              <span class="mif-cog"></span>
+            </button>
+            <!-- <a ui-sref="setting" class="cog-button"><span class="mif-cog"></span></a> -->
+          </li>
+        </ul>
+      </div>
+      <div class="pt-5 pb-10 content pl-4-fs pr-4-fs">
+        <div class="inner-content p-10-md">
+          <div ng-repeat="syntaxData in eng_word" ng-if="$first">
+            <p class="h5">
+              <strong class="word-style">
+                <span class="mif-books"></span> {{ syntaxData.eng }}
+                <span ng-repeat="type in syntaxData.eng_type">
+                  ( {{ type.type }} )
+                </span>
+              </strong>
+            </p>
+            <br>
+            <p class="h6">{{ syntaxData.lisu }}</p>
+            <p class="h6">
+              <b>{{ syntaxData.mm }}</b></p>
+            <br>
+            <p ng-repeat="eg in syntaxData.syntax">
+              <span>{{ eg.eng }}</span><br>
+              <span>{{ eg.lisu }}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="dialog" data-role="dialog" id="mailDialog">
-	<div class="dialog-title">Report To Developer.</div>
-	<div class="dialog-content" ng-if="internet">
-		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores laudantium, sit, odit eos repellat
-			natus reprehenderit explicabo eligendi veritatis et dolore voluptate repudiandae corporis autem, aliquam
-			recusandae placeat reiciendis eaque?</p>
-	</div>
-	<div class="dialog-content" ng-if="!internet">
-		<p class="fg-red h6 text-center" style="line-height: 25px;">You can report to developer because you are
-			online.</p>
-		<p class="text-center">
-			<button class="button js-dialog-close"><span class="mif-info"></span> Try Later</button>
-		</p>
-	</div>
-	<div class="dialog-actions text-right">
-		<button class="button js-dialog-close">Close </button>
-		<button class="button success" ng-click="sendMail(mail)">Report</button>
-	</div>
+  <div class="dialog-title">Report To Developer.</div>
+  <div class="dialog-content" ng-if="internet">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores laudantium, sit, odit eos repellat
+      natus reprehenderit explicabo eligendi veritatis et dolore voluptate repudiandae corporis autem, aliquam
+      recusandae placeat reiciendis eaque?</p>
+  </div>
+  <div class="dialog-content" ng-if="!internet">
+    <p class="fg-red h6 text-center" style="line-height: 25px;">You can report to developer because you are
+      online.</p>
+    <p class="text-center">
+      <button class="button js-dialog-close"><span class="mif-info"></span> Try Later</button>
+    </p>
+  </div>
+  <div class="dialog-actions text-right">
+    <button class="button js-dialog-close">Close </button>
+    <button class="button success" ng-click="sendMail(mail)">Report</button>
+  </div>
 </div>
 
 <div class="dialog" data-role="dialog" id="settingDialog">
-	<div class="dialog-title">Settings</div>
-	<div class="dialog-content">
-		<p class="h4">About App.</p>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id beatae nisi libero dolorum non? Ullam similique,
-			et accusantium quas magni tempora voluptas quibusdam quo tempore ducimus praesentium repellendus voluptatem
-			itaque?</p>
-	</div>
-	<div class="dialog-actions text-right">
-		<button class="button js-dialog-close">Close</button>
-		<button class="button success">Save Change</button>
-	</div>
+  <div class="dialog-title">Settings</div>
+  <div class="dialog-content">
+    <p class="h4">About App.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id beatae nisi libero dolorum non? Ullam similique,
+      et accusantium quas magni tempora voluptas quibusdam quo tempore ducimus praesentium repellendus voluptatem
+      itaque?</p>
+  </div>
+  <div class="dialog-actions text-right">
+    <button class="button js-dialog-close">Close</button>
+    <button class="button success">Save Change</button>
+  </div>
 </div>

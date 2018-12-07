@@ -1,724 +1,724 @@
 {
-    "data": [{
-            "eng": "ability",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓐ ꓡˍ ꓟ꓿ ꓑꓷꓽ ꓢꓲ, ꓿",
-            "mm": "အရည်အချင်း၊ အစမ်းအစ",
-            "syntax": [{
-                "eng": "We have ability to forgive and love those who were cruel to us.",
-                "lisu": "ꓥꓪ ꓠꓴꓽ ꓔꓯ ꓟꓽ ꓙꓲ ꓟꓽ ꓜꓳꓽ ꓥꓶ.ˍ ꓟ ꓬꓰ ꓖꓶ ꓡ ꓢꓴ ꓡꓽ ꓞꓳ ꓖꓳ ꓕꓲ ꓧꓳꓽ ꓔꓯ ꓖꓽ ꓖꓶ ꓠꓲ, ꓠꓵ ꓐ ꓡˍ ꓟ ꓑꓷꓽ ꓢꓲ, ꓥꓪ ꓠꓴꓽ ꓔꓯ ꓙꓳˍ ꓡꓳ꓿ ",
-                "mm": ""
-            }]
+  "data": [{
+      "eng": "ability",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓐ ꓡˍ ꓟ꓿ ꓑꓷꓽ ꓢꓲ, ꓿",
+      "mm": "အရည်အချင်း၊ အစမ်းအစ",
+      "syntax": [{
+        "eng": "We have ability to forgive and love those who were cruel to us.",
+        "lisu": "ꓥꓪ ꓠꓴꓽ ꓔꓯ ꓟꓽ ꓙꓲ ꓟꓽ ꓜꓳꓽ ꓥꓶ.ˍ ꓟ ꓬꓰ ꓖꓶ ꓡ ꓢꓴ ꓡꓽ ꓞꓳ ꓖꓳ ꓕꓲ ꓧꓳꓽ ꓔꓯ ꓖꓽ ꓖꓶ ꓠꓲ, ꓠꓵ ꓐ ꓡˍ ꓟ ꓑꓷꓽ ꓢꓲ, ꓥꓪ ꓠꓴꓽ ꓔꓯ ꓙꓳˍ ꓡꓳ꓿ ",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "add",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓔꓺ꓾ ꓚꓬꓺ꓾ ꓡꓴꓽ꓿",
+      "mm": "ထပ်ဖြည့် ၊ ပေါင်း",
+      "syntax": [{
+        "eng": "An additional item of food was added to the restaurant menu yesterday. ",
+        "lisu": " ꓮꓽ ꓟꓰ ꓕꓯ꓾ ꓜ ꓢꓰꓠ ꓗꓪ ꓟ ꓜꓽ ꓫꓵꓽ ꓟꓯ, ‐ꓠꓴ, ꓗꓪ ꓪꓳꓽ ꓔꓲ.ꓬꓲ ꓫꓵꓼ ꓕꓲ ꓙꓰꓽ ꓔꓺ ꓗꓷꓳ꓿(ꓪꓳꓽ ꓔꓲ.ꓠꓬ ꓚꓬ.ꓦ, ꓟ ꓪꓳꓽ ꓒꓬꓽ ꓕꓲ ꓗꓶ.ꓔꓯ ꓐꓯˍ ꓡꓳ꓿)",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "after",
+      "eng_type": [{
+          "type": "prep"
         },
         {
-            "eng": "add",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓔꓺ꓾ ꓚꓬꓺ꓾ ꓡꓴꓽ꓿",
-            "mm": "ထပ်ဖြည့် ၊ ပေါင်း",
-            "syntax": [{
-                "eng": "An additional item of food was added to the restaurant menu yesterday. ",
-                "lisu": " ꓮꓽ ꓟꓰ ꓕꓯ꓾ ꓜ ꓢꓰꓠ ꓗꓪ ꓟ ꓜꓽ ꓫꓵꓽ ꓟꓯ, ‐ꓠꓴ, ꓗꓪ ꓪꓳꓽ ꓔꓲ.ꓬꓲ ꓫꓵꓼ ꓕꓲ ꓙꓰꓽ ꓔꓺ ꓗꓷꓳ꓿(ꓪꓳꓽ ꓔꓲ.ꓠꓬ ꓚꓬ.ꓦ, ꓟ ꓪꓳꓽ ꓒꓬꓽ ꓕꓲ ꓗꓶ.ꓔꓯ ꓐꓯˍ ꓡꓳ꓿)",
-                "mm": ""
-            }]
+          "type": "adj"
         },
         {
-            "eng": "after",
-            "eng_type": [{
-                    "type": "prep"
-                },
-                {
-                    "type": "adj"
-                },
-                {
-                    "type": "adv"
-                }
-            ],
-            "lisu": " ꓗ ꓠꓯ.꓿ ꓗ ꓠꓯ.ꓢꓲꓺ ꓗꓪ꓿ ",
-            "mm": "နောက်မှာ ၊ နောက် ၊ နောက်ကနေ",
-            "syntax": [{
-                    "eng": "After school they all went into the forest and picked the wood for fuel.",
-                    "lisu": "ꓙꓳꓥꓽ ꓗꓪ ꓐꓰ ꓡꓽ ꓡ ꓗ ꓠꓯ.ꓬꓲ ꓪꓽ ꓮꓽ ꓙꓵ ꓠꓬ ꓢꓲ, ꓠꓯ ꓡꓲ ꓗꓪ ꓓꓵꓽ ꓙꓰ ꓢꓲ ꓢꓲ, ꓚꓳ.ꓧꓪ ꓖꓳꓺ ꓬꓰˍ ꓡꓳ꓿ ",
-                    "mm": ""
-                },
-                {
-                    "eng": "Several years after the war, the country became prosperous again.",
-                    "lisu": "ꓟꓯꓼ ꓟꓶꓽ ꓙꓽ ꓖꓴ ꓡꓰ ꓗ ꓠꓯ, ꓢ ꓡꓲ ꓘꓳꓼ ꓕꓯ ꓬꓲ ꓪꓽ ꓗꓴꓷ ꓠꓬ ꓝꓮꓲ ꓪꓴꓽ ꓟꓴ ꓡꓻꓳ꓿",
-                    "mm": ""
-                }
-            ]
-        },
-        {
-            "eng": "allow",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": " ꓖꓶ (ꓬꓰ)꓾ ꓖꓶ(ꓙꓰ)꓿ ",
-            "mm": "ခွင့်ပြု",
-            "syntax": [{
-                "eng": "Acha’ parents didn’t allow her to go out at night.",
-                "lisu": " ꓟꓶ ꓘꓶ ꓠꓯ ꓞꓲ, ꓡꓰ ꓕꓯ꓾ ꓮ‐ ꓛ ꓔꓯ ꓬꓲ ꓐ, ꓐ ꓟ, ꓟ ꓡꓰ ꓬꓲ ꓐꓽ ꓟꓽ ꓖꓶ ꓓꓳ꓿ ",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "am",
-            "eng_type": [{
-                "type": "v-be"
-            }],
-            "lisu": " ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ꓿ ",
-            "mm": "ဖြစ်သည်၊ ရှိသည်၊ နေထိုင်သည်။",
-            "syntax": [{
-                    "eng": "I am a school teacher.",
-                    "lisu": " ꓥꓪ ꓠꓬ ꓙꓳꓥꓽ ꓟ.ꓒ ꓕꓲ ꓣꓳ ꓥ ꓡꓳ꓿ ",
-                    "mm": ""
-                },
-                {
-                    "eng": "Where is my wallet? ",
-                    "lisu": "ꓥꓪ ꓒꓴ ꓗꓶꓺ ꓕꓴꓽ ꓮ ꓗꓪ ꓓ, ꓡ ? ",
-                    "mm": ""
-                },
-                {
-                    "eng": "You are in Myanmar, but I am in the USA.",
-                    "lisu": "ꓠꓴ ꓠꓬ ꓡꓳ‐ ꓟꓲ ꓗꓴꓷ ꓗꓪ ꓔꓬ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ ꓥꓪ ꓠꓽ ꓟꓷꓽ ꓗꓴꓷꓼ ꓗꓪ ꓔꓬ ꓡꓳ꓿ ",
-                    "mm": ""
-                }
-            ]
-        },
-        {
-            "eng": "america",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": " ꓟꓷꓽ ꓚꓷꓴ꓿ ",
-            "mm": "အမေရိကား၊ အမေရိကန်",
-            "syntax": [{
-                "eng": "The U.S.A. is located inside North America.",
-                "lisu": " ꓟꓷꓽ ꓗꓴꓷ ꓠꓬ ꓡꓳ ꓪꓴ.ꓟꓷꓽ ꓚꓷꓴ ꓘꓴꓽ ꓗꓪ ꓥ ꓡꓳ꓿ ",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "american",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": " ꓟꓷꓽ ꓚꓷꓴ ꓒ꓿",
-            "mm": "အမေရိကန် နိုင်ငံသား။",
-            "syntax": [{
-                "eng": "People who live in the U.S.A. are called Americans.",
-                "lisu": "ꓟꓷꓽ ꓗꓴꓷ ꓠꓯꓸꓼ ꓔꓬ ꓢꓴ ꓑꓺ ꓫꓬꓼ ꓡꓽ ꓞꓳ ꓮꓽ ꓙꓵ ꓔꓯ ꓮꓽ‐ ꓟꓯ‐ ꓡꓲ‐ ꓘꓯꓠ ꓐꓯˍ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "annual",
-            "eng_type": [{
-                "type": "adj"
-            }],
-            "lisu": " ꓘꓳꓼ ꓚꓳ꓿ ꓕꓲ ꓘꓳꓼ ꓕꓲ ꓧꓪ, ꓬꓰˍ ꓟ꓾ ꓒꓬꓱꓼˍ ꓟ꓿ ",
-            "mm": "နှစ်ပတ်လည်။",
-            "syntax": [{
-                "eng": " Our company’ s annual meeting will be held today. ",
-                "lisu": "ꓣꓳꓽ ꓗꓳ‐ ꓑ‐ ꓠꓰ(ꓗꓳꓥ ꓢꓶꓺ) ꓘꓳꓼ ꓚꓳꓺ ꓜꓲꓼ ꓓꓴ ꓠꓬ ꓠꓬꓲ.ꓟꓲ ꓥꓳ꓿ ",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "another",
-            "eng_type": [{
-                    "type": "adj"
-                },
-                {
-                    "type": "pron"
-                }
-            ],
-            "lisu": " ꓠꓱ . ꓐꓯꓼ ( ꓕꓲ ꓟ ) ꓿ ꓝꓮꓲ ( ꓕꓲ ꓟ꓾ ꓕꓲ ꓣꓳ ) ꓿ ",
-            "mm": "အခြား၊ နောက်ထပ်။",
-            "syntax": [{
-                "eng": " Do you have another one? ",
-                "lisu": "ꓠꓴ ꓔꓯ ꓠꓱ . ꓐꓯꓼ ꓕꓲ ꓟ ꓙꓳˍ ꓢꓰꓽ ꓡ? ",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "answer",
-            "eng_type": [{
-                    "type": "v"
-                },
-                {
-                    "type": "n"
-                }
-            ],
-            "lisu": " ꓒꓳ, ꓖꓶ꓾ ꓒꓳ, ꓘꓶ꓿ ꓓꓽ ꓔꓳ,꓾ ꓓꓽ ꓔꓳ, ꓘꓶ꓿",
-            "mm": "အဖြေပေး ၊ ပြန်ကြား။",
-            "syntax": [{
-                "eng": "“ Of course, I will.” John answered. ",
-                "lisu": "ꓬꓳ‐ꓦ ꓡꓰ꓾ “ꓥ ꓡꓯ꓾ ꓥꓪ ꓬꓰˍ ꓥꓳ꓿” ꓐꓰ ꓒꓳ, ꓖꓶˍ ꓡꓳ꓿ ",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "anticipate",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓦ ꓐꓬꓱꓽ ꓟꓳ ꓥꓳꓺ ꓡꓳ.꓿",
-            "mm": "တင်ကြိုစိတ်ကူးမျော်မှန်း၊ တင်ကြိုစိတ်ကူးသိမြင် ။",
-            "syntax": [{
-                "eng": "“ In fact, that Hollywood movie producer did not anticipated his last movie would fetch hundreds of million dollars.",
-                "lisu": "ꓬꓲ ꓚꓽ ꓐꓯ ꓕꓯ꓾ ꓧꓳ‐ꓡꓲ‐ꓪꓴꓼ ꓢꓯ. ꓐꓬꓱꓽ ꓫꓬ, ꓓꓳꓺ ꓒ ꓖꓳ ꓕꓲ ꓣꓳ ꓠꓬ꓾ ꓬꓲ ꓢꓯ. ꓐꓬꓱꓽ ꓬꓲ ꓟꓶ ꓕꓱ ꓕꓲ ꓟ ꓗꓪ ꓐꓰ ꓒꓴ ꓬꓲ ꓦꓬꓻ ꓟꓲ‐ꓡꓬ ꓓꓳ‐ꓡ ꓫꓺ ꓟꓶꓻˍ ꓓꓴ ꓐꓰ ꓟꓽ ꓥꓳꓺ ꓡꓳ. ꓔ ꓫꓵꓽ ꓥꓳ꓿",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "are",
-            "eng_type": [{
-                "type": "v-be"
-            }],
-            "lisu": "ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ꓿",
-            "mm": "ဖြစ်သည်၊ ရှိသည်၊ နေထိုင်သည်။",
-            "syntax": [{
-                    "eng": "You are a hospital nurse.",
-                    "lisu": "ꓠꓴ ꓠꓬ ꓠꓯ ꓞꓲꓼ ꓦꓲ ꓗꓪ ꓟ ꓠ,‐ꓢꓶ ꓟꓺ  ꓕꓲ ꓣꓳ ꓥ ꓡꓳ꓿",
-                    "mm": ""
-                },
-                {
-                    "eng": "Where are the patients?",
-                    "lisu": " ꓞꓳ ꓠꓻ ꓐꓴ ꓮ ꓡꓲ ꓗꓪ ꓥ ꓡ?",
-                    "mm": ""
-                },
-                {
-                    "eng": "They are inside the ward.",
-                    "lisu": " ꓬꓲ ꓪꓽ ꓠꓬ ꓞꓳ ꓠꓻ ꓬꓲꓼ ꓔ ꓗꓳ, ꓠꓯꓸꓼ ꓗꓪ ꓥ ꓡꓳ꓿",
-                    "mm": ""
-                }
-            ]
-        },
-        {
-            "eng": "art",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": " ꓬꓲꓸꓼ ꓫꓴꓸꓼ꓾ ꓚꓰꓼ ꓜꓰꓺ ꓜꓯꓺ ꓑꓵ, ꓤ. ꓢꓷ ꓠꓲ,꓿ ꓟꓷꓽ ꓫꓴꓸꓼ꓿ ꓢꓷ ꓠꓲ,꓿",
-            "mm": "အနုပညာ။",
-            "syntax": [{
-                "eng": "Art is the expression of human creative skill and imagination, typically in a visual form such as  painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power.",
-                "lisu": "ꓬꓲꓸꓼ ꓫꓴꓸꓼ ꓐꓯˍ ꓟ ꓠꓬ꓾ ꓚꓰꓼ ꓜꓯꓻ ꓡꓯꓼ ꓟꓬꓱꓽ ꓢꓷ ꓠꓲ, ꓐꓰ ꓦ ꓐꓬꓱꓽ ꓐꓴ ꓔꓯ ꓬꓲ ꓑꓰ, ꓬꓰ ꓓꓳ ꓡ ꓢꓲ꓾ ꓛꓳꓽ ꓟꓳ ꓢꓴ ꓠꓲ, ꓟ ꓔꓯ ꓡꓵ, ꓔꓴ ꓡꓵ, ꓢꓴꓺ ꓐ ꓡˍ ꓟ ꓐꓲꓻ ꓒꓬꓱꓽ ꓐꓰ ꓢꓯꓼ ꓪꓽ ꓗꓴꓺ ꓓꓯ, ꓟ ꓡꓯꓼ ꓟꓬꓱꓽ ꓐꓴ ꓔꓯ ꓐꓯˍ ꓡꓳ꓿ ꓔꓯ ꓑꓲꓽ꓾ ꓚꓰꓼ ꓜꓯꓻ ꓐꓳ ꓔ ꓟ ꓟꓴꓽ ꓖꓪꓽ ꓐꓰ ꓘꓶ ꓪꓰ ꓐꓰ ꓔꓯꓺ ꓐꓬꓱꓽ drama ꓾ ꓤ. ꓦ,꓾ ꓧꓪꓸꓼ ꓦ, ꓟ ꓐꓬꓱꓽ ꓒꓬꓽ꓾ ꓜꓰꓺ ꓔ ꓑꓵ, ꓔ ꓟ ꓐꓬꓱꓽ ꓑꓵ, sculptures ꓡꓰꓳ ꓫꓵꓽ ꓔꓯ ꓐꓯˍ ꓡꓳ꓿ The Lisu Musical Artists association ꓡꓲ‐ꓢꓴ ꓟꓴꓽ ꓖꓪ ꓐꓰ ꓟꓬꓴ, ꓜꓲꓼ ꓗꓴ. ꓒ ꓐꓴ ꓙꓻ ꓡꓯꓼ ꓘꓳ ꓜꓴ꓿ The Lisu Artists Association ꓡꓲ‐ꓢꓴ ꓐꓬꓱꓽ ꓤ. ꓒ ꓙ ꓡꓯꓼ ꓘꓳ ꓜꓴ꓿ ",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "as",
-            "eng_type": [{
-                "type": "adv"
-            }],
-            "lisu": "ꓫꓱꓸꓼ꓾ ꓡꓰ ꓐꓰ꓾ ꓒꓬꓱꓽ ꓗꓪ꓾ ꓕꓲ ꓒꓳ, ꓗꓪ ꓐꓰ꓿",
-            "mm": "အဖြစ်၊ ကဲ့သို့၊ လို၊ အသွင်ဖြင့်။",
-            "syntax": [{
-                "eng": "Once upon a time, there it rained hailstones as big as a water melon in a village.",
-                "lisu": "ꓮꓽ ꓠꓱ ꓕꓯ꓾ ꓞꓳ ꓘ, ꓕꓲ ꓟ ꓗꓪ ꓒꓵꓽ ꓜꓲꓽ ꓢꓶ ꓡꓰ ꓐꓰ ꓕꓱ ꓪꓴꓻ ꓗ, ꓫꓵꓽ ꓪꓽ ꓢꓶ ꓟꓶ ꓦ ꓬꓯꓼˍ ꓙꓳꓽ꓿(ꓒꓵꓽ ꓜꓲꓽ ꓢꓶ ꓫꓱ. ꓫꓱꓸꓼ ꓪꓴꓽˍ ꓟ꓿)",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "ask",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "1. ꓠ ꓠꓬꓲ꓿ 2. ꓓꓰꓽ꓾ ꓖꓶꓻ ꓬꓲꓼ꓿",
-            "mm": "မေး၊ မေးမြန်း။",
-            "syntax": [{
-                "eng": "Please ask the stranger where he is from.",
-                "lisu": " ꓞꓳ ꓜꓲꓽ ꓕꓱ ꓕꓲ ꓣꓳ ꓔꓯ ꓬꓲ ꓮ ꓡꓲ ꓗꓪ ꓚꓳ. ꓡˍ ꓡꓽ꓾ ꓠꓺ ꓠꓬꓲ꓿",
-                "mm": ""
-            }]
-        },
-        {
-            "eng": "authority",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓙꓵꓽ ꓪꓽ꓿",
-            "mm": "အာဏာ",
-            "syntax": [{
-                "eng": "What authority do you have that you order me to do this and that?",
-                "lisu": " ꓥꓪ ꓔꓯ ꓕꓱ ꓡꓱ ꓬꓰ꓾ ꓖꓳꓡꓱ ꓬꓰ ꓐꓰ ꓝꓲꓺ ꓠ , ꓟ꓾ ꓕꓵꓼ ꓪꓽ ꓖꓶ ꓠ, ꓟ ꓠꓴ ꓔꓯ ꓮ . ꓫꓵꓽ ꓙꓵꓽ ꓪꓽ ꓕꓲ ꓟ ꓙꓳˍ ꓡ ? ",
-                "mm": ""
-            }]
-        }, {
-            "eng": "back",
-            "eng_type": [{
-                "type": "adv"
-            }, {
-                "type": "n"
-            }],
-            "lisu": "ꓗ ꓠꓯ, ꓢꓲꓺ꓾ ꓗ ꓠꓯ ꓔꓯ ꓟꓳ.꓿ ꓗ ꓠꓯ.꓾ ꓗ. ꓗꓳꓺ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "They decided to go back as it was getting dark.",
-                "lisu": "ꓠꓯ ꓞꓲ, ꓡꓰ ꓔꓬ ꓟ ꓐꓰ ꓕꓲ ꓡꓰꓹꓼ꓾ ꓗ ꓠꓯ. ꓢꓲꓺ ꓡꓽ ꓙꓰ ꓠ, ꓟ (ꓚꓱ, ꓡꓽ ꓙꓰ ꓠ , ꓟ) ꓬꓲ ꓪꓽ  ꓓꓵꓽ ꓙ ꓞꓷ, ꓗꓷꓳ꓿",
-                "mm": ""
-            }, {
-                "eng": "Lie on you back and stretch out your legs.",
-                "lisu": "ꓠꓴ ꓗ. ꓗꓳꓺ ꓗꓪ (ꓔꓯ. ꓡꓯꓼ ꓥꓪꓺ ꓢꓲꓺ) ꓬꓲꓼ ꓔ ꓢꓲ ꓠꓴ ꓛꓲ ꓒꓯ, ꓠꓬꓲꓽ ꓐꓽ ꓔꓯ ꓛꓱꓺ ꓩꓴ ꓗꓷ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "bank",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓐꓮꓥ꓿ ꓒꓴ ꓞꓳꓽ ꓦꓲ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "The bank is where you keep your money safely.",
-                "lisu": "ꓐꓮꓥ ꓒꓴ ꓞꓳꓽ ꓦꓲ ꓠꓬ ꓙꓽ ꓫ ꓓꓴ ꓟꓽ ꓙꓳ ꓟ ꓠꓴ ꓒꓴ ꓫꓺ ꓔꓶ. ꓥꓳ꓿ˍ ꓥꓳ꓿ ( safely ꓕꓱ ꓕꓲ ꓘꓶ ꓔꓯ ꓡꓴ ꓫꓵꓺ ꓡꓲꓢꓴ ꓐꓴ ꓠꓬ ꓩ. ꓫꓲ ꓓˍ ꓟ ꓐꓰ ꓐꓯ ˍꓡꓳ꓿ )",
-                "mm": ""
-            }]
-        }, {
-            "eng": "be",
-            "eng_type": [{
-                "type": "v-be"
-            }],
-            "lisu": "ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ { am is are ꓕꓱ ꓢ ꓘꓶ ꓡꓱꓸꓼ ꓟ ꓬꓲꓼ ꓛꓲ ꓣꓱꓽˍ ꓡꓳ꓿}",
-            "mm": "",
-            "syntax": [{
-                "eng": "I will be there with  you very soon.",
-                "lisu": "ꓥꓪ ꓳ. ꓗꓪ ꓟꓽ ꓟꓶꓺ ꓫꓵꓺ ꓕꓯ ꓠꓴˍ ꓐꓰ ꓕꓲ ꓪˍ ꓔꓬ ꓥꓳ꓿",
-                "mm": ""
-            }, {
-                "eng": "Don’t be lazy to do your home-works, boys.",
-                "lisu": "ꓦꓲ ꓗꓪ ꓕꓳ ꓶ ꓵ ꓢꓳ ꓐꓳ ꓢꓳ ꓠ, ꓟ ꓕ ꓐꓴꓻ꓾ ꓮ ꓐꓲ ꓤꓼ ꓐꓴꓳ꓿",
-                "mm": ""
-            }, {
-                "eng": "Would you be happy if your ex-wife comes back?",
-                "lisu": " ꓕꓲꓽ ꓙꓬꓼ ꓧ, ꓗꓷ ꓟ ꓠꓴ ꓦꓲ ꓢꓲ ꓟ ꓝꓮꓲ ꓡꓽ ꓡˍ ꓚꓰꓼ ꓐꓷ,ˍ ꓠꓬ ꓠꓴ ꓗ, ꓛꓲꓽˍ ꓡ?",
-                "mm": ""
-            }, {
-                "eng": "They will be all home by this time tomorrow.",
-                "lisu": " ꓢ, ꓖꓶꓻ ꓕꓱ ꓕꓲ ꓙꓵ, ꓬꓲ ꓪꓽ ꓮ ꓙꓵꓽ ꓦꓲ ꓡꓽ ꓛꓲ ꓬꓰˍ ꓥꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "believe",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓙꓵ꓾ ꓦ ꓡꓱ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "You can believe the invisible God, but not the visible human kind.",
-                "lisu": "ꓟꓳ ꓟꓽ ꓓˍ ꓟ ꓪꓴ‐ꓢ ꓔꓯ ꓠꓴ ꓙꓵ ꓓˍ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ ꓟꓳ ꓓˍ ꓟ ꓞꓳ ꓤ ꓔꓯ ꓠꓴ ꓙꓵ ꓟꓽ ꓓ꓿ ꓖꓺ ꓧꓶꓺ ꓐꓰ ꓖꓳ ꓡꓱ ꓥˍ ꓟꓲ ꓠꓬ ꓬꓲ ꓕꓲ ꓘꓶˍ ꓡꓰꓽ ꓥ ꓢꓲ꓾ ꓕꓮꓲꓻ ꓟꓵꓽ ꓡꓲ-ꓢꓴ ꓐꓯ ꓘꓶ ꓥ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "big",
-            "eng_type": [{
-                "type": "adj"
-            }],
-            "lisu": "ꓪꓴꓽˍ ꓟ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Chicken egg is bigger than dove egg.",
-                "lisu": "ꓮ. ꓬ. ꓩꓴ ꓠꓬ ꓮ. ꓖꓴꓽ ꓩꓴ ꓕꓯ ꓢꓲꓺ ꓪꓴꓽˍ ꓡꓳ꓿ ",
-                "mm": ""
-            }]
-        }, {
-            "eng": "bigger",
-            "eng_type": [{
-                "type": "adj"
-            }],
-            "lisu": "ꓟꓬꓽ ꓠꓬꓲ ꓪꓴꓽˍ ꓟ꓾ ꓪꓺ ꓜꓲ ꓪꓴꓽˍ ꓟ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Chicken egg is bigger than dove egg.",
-                "lisu": "ꓮ. ꓬ. ꓩꓴ ꓠꓬ ꓮ. ꓖꓴꓽ ꓩꓴ ꓕꓯ ꓢꓲꓺ ꓪꓴꓽˍ ꓡꓳ꓿ ",
-                "mm": ""
-            }]
-        }, {
-            "eng": "biggest",
-            "eng_type": [{
-                "type": "adj"
-            }],
-            "lisu": "ꓪꓴ ꓓꓰ ꓡꓰ ꓟ꓾ ꓮꓽ ꓙꓵ ꓪꓴ. ꓗꓪ ꓪꓴꓽ ꓓꓰ ꓡꓰ ꓟ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Chicken egg is bigger than dove egg.",
-                "lisu": "ꓮ. ꓬ. ꓩꓴ ꓠꓬ ꓮ. ꓖꓴꓽ ꓩꓴ ꓕꓯ ꓢꓲꓺ ꓪꓴꓽˍ ꓡꓳ꓿ ",
-                "mm": ""
-            }]
-        }, {
-            "eng": "bible",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓢꓲꓽ ꓫꓬ ꓕꓳ ꓶ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "There are two parts in the bible book.",
-                "lisu": "ꓢꓲꓽ ꓫꓬ ꓕꓳ ꓶ ꓑꓷꓠ ꓠꓬ ꓠꓬꓲꓽ ꓐꓱꓻ  ꓙꓳˍ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "black",
-            "eng_type": [{
-                "type": "adj"
-            }, {
-                "type": "n"
-            }],
-            "lisu": "ꓠꓯꓺ꓾ ꓬꓲ ꓠꓯ꓿ ꓞꓳ ꓠꓯꓺ ꓫꓵꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Her eye and hair are black.",
-                "lisu": "ꓬꓲ ꓟꓬ ꓢꓶ ꓐꓰ ꓪꓴ. ꓞꓱꓻ ꓐꓴ ꓠꓬ ꓠꓯꓺ ꓠꓯꓺ ꓗ, ꓡꓳ꓿",
-                "mm": ""
-            }, {
-                "eng": "The Blacks in the US are kings of the athletes.",
-                "lisu": "ꓟꓷꓽ ꓗꓴꓷ ꓗꓪ ꓔꓬ ꓟ ꓞꓳ ꓠꓯ ꓐꓴ ꓠꓬ ꓡꓳ ꓖꓪꓺ ꓪꓽ ꓝꓲꓺ ꓐꓴ ꓥꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "bless",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": " ꓶꓼ ꓥꓳꓽ ꓙꓱꓽ ꓖꓶ꓾ ꓶꓼ ꓤ ꓫꓱ. ꓤ ꓖꓶ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Blessed are those who make peace.",
-                "lisu": "ꓧꓳ, ꓡꓯꓼ ꓘꓳ ꓪꓽ ꓡꓯꓼ ꓘꓳ ꓚꓱ, ꓫꓬ, ꓢꓴ ꓠꓬ ꓶꓼ ꓙꓳ ꓫꓱ, ꓙꓳˍ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "blew",
-            "eng_type": [{
-                "type": "v"
-            }, {
-                "type": "pp"
-            }],
-            "lisu": "ꓙꓱꓼ ꓗꓷꓳ꓾ ꓟꓲꓽ ꓦꓲ ꓙꓱꓼ ꓗꓷꓳ꓾ ꓟꓲꓽ ꓦꓲ ꓙꓱꓼ ꓗꓳ. ꓙꓰꓳ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Last night the wind blew at a speed of 50 mph.",
-                "lisu": "ꓮꓽ ꓟꓰꓻ ꓟꓶꓼ ꓘꓶ꓾ ꓟꓲ ꓦꓲ ꓠꓬ ꓕꓲ ꓙꓵ, ꓗꓪ 50 ꓟꓲ ꓢꓴ. ꓙꓱꓼ ꓗꓷꓳ꓿ ꓢꓴ. ꓠꓬ နှုန်း ꓥ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "blind",
-            "eng_type": [{
-                "type": "adj"
-            }, {
-                "type": "n"
-            }],
-            "lisu": "ꓟꓬ ꓛꓱꓽ꓾ ꓟꓬ ꓔꓶꓺ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "The doctors can save you from becoming blind from this cataract.",
-                "lisu": "ꓟꓬ ꓒꓴ ꓕꓱ ꓟ ꓗꓪ ꓐꓰ ꓠꓴ ꓟꓬ ꓢꓶ ꓛꓱꓼˍ ꓗꓪ ꓟꓽ ꓛꓲ ꓬꓰ ꓠ, ꓟ ꓠꓴ ꓔꓯ ꓠꓯ ꓞꓲꓼ ꓟ. ꓒ ꓓꓳ‐ꓔ ꓐꓴ ꓚꓬꓴ .ꓙ ꓐ ꓡˍ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "blow",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓙꓱꓼ꓾ ꓟꓲꓽ ꓦꓲ ꓙꓱꓼ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "“ You are supposed to blow off the candle lights only after the song Happy Birthday is finished” said the baby girl’ s mother.",
-                "lisu": "”ꓗ, ꓛꓲˍ ꓟ ꓦꓵ ꓦꓬꓼ ꓠꓬꓲ ꓟꓴꓽ ꓖꓪꓽ ꓖꓳ ꓟ ꓖꓪ ꓓꓳ ꓡꓰ ꓕꓯ ꓢꓲ꓾ ꓫꓳ. ꓓꓻ ꓮ. ꓔꓳ. ꓟꓵꓺ ꓢꓰꓼ ꓥ꓿” ꓐꓰ ꓮ. ꓟꓲꓽ ꓤꓼ ꓔꓯ ꓬꓲ ꓟ, ꓟ ꓡꓰ ꓐꓯ ꓖꓶˍ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "blue",
-            "eng_type": [{
-                "type": "adj"
-            }],
-            "lisu": "ꓟꓴꓽ ꓗꓪ ꓠꓲ, ꓛꓵꓼ꓿ ꓡꓯꓽ꓿ ꓡꓯꓽ ꓢꓷꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Is that blue car yours?",
-                "lisu": "ꓟꓳ ꓓꓳ ꓡꓯꓽ ꓢꓷꓽ ꓖꓳ ꓕꓲ ꓗ. ꓠꓴ ꓔꓯ. ꓥ ꓡ? ( ꓡꓳ ꓪꓴ. ꓡꓲ‐ꓢꓴ ꓐꓴ ꓠꓬ꓾ ꓠꓴ ꓔꓯ ꓟ ꓥꓳ꓾ ꓥꓪ ꓔꓯ ꓟ ꓥꓳ꓾ ꓐꓰ “ꓟ” ꓕꓲ ꓘꓶ ꓮꓽ ꓘꓶ. ꓟꓽ ꓔ, ꓣꓱꓽ꓿ ꓠꓴ ꓔꓯ ꓥꓳ꓿ ꓕꓱ ꓟ ꓬꓲ ꓔꓯ ꓟꓽ ꓥ꓾ ꓕꓱ ꓡꓱˍ ꓡꓰꓽ ꓐꓯˍ ꓡꓳ꓿)",
-                "mm": ""
-            }]
-        }, {
-            "eng": "book",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓕꓳ ꓶ ꓑꓷꓠꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Mark Hae has translated a Thai novel book which title was “Let us go back to our home.”Into Lisu ",
-                "lisu": "ꓦꓯ, ꓟ‐ꓘꓳ ꓡꓰ꓾ “ꓣꓳꓽ ꓦꓲ ꓗꓪ ꓡꓽ ꓙꓰ ꓡꓯꓳ” ꓐꓯꓳ ꓫꓵꓽ  ꓕꓮꓲꓻ ꓐꓳꓟꓲꓽ ꓕꓳ ꓶ ꓕꓲ ꓑꓷꓠ ꓔꓯ ꓡꓲ‐ꓢꓴ ꓥꓳꓽ ꓗꓪ ꓡꓶ. ꓐꓳ ꓦ, ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "Burmese",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓡꓳꓽ‐ꓟꓲꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Burmese is the majority tribe people who lives in the country Myanmar.",
-                "lisu": "ꓡꓳꓽ‐ꓟꓲ ꓠꓬ ꓟꓬ‐ꓟ ꓗꓴꓷ ꓗꓪ ꓟ ꓞꓳ ꓫꓵꓽ ꓔꓲꓺ ꓥ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "buy",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓪꓴ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "I will buy you a book from Amazon.",
-                "lisu": "ꓮ‐ꓟ‐ꓜꓳꓠ ꓗꓪ ꓐꓰ ꓠꓴ ꓔꓯ ꓕꓳ ꓶ ꓕꓲ ꓑꓷꓠ ꓪꓴ ꓖꓶˍ ꓠꓬꓲ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "by",
-            "eng_type": [{
-                "type": "prep"
-            }, {
-                "type": "adv"
-            }],
-            "lisu": "1. ꓡꓰ꓿ 2 . ꓮ. ꓫꓵꓽ ꓜꓶ ꓢꓲ ꓙꓰˍ ꓟ ꓖꓴ ꓟ. ꓖꓶˍ ꓕꓯ ꓣꓱꓽˍ ꓟ ꓐꓯ ꓘꓶ ꓝ.꓿ 3. ꓗꓪ ꓐꓰ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "This book was translated by Mark Gwah.",
-                "lisu": " ꓕꓳ ꓶ ꓕꓱ ꓕꓲ ꓑꓷꓠ ꓔꓯ ꓖꓪꓽ ꓟ‐ꓘꓳ, ꓡꓰ ꓥꓳꓽ ꓡꓶ. ꓐꓳ ꓦ , ꓥ꓿",
-                "mm": ""
-            }, {
-                "eng": "They came by buss.",
-                "lisu": " ꓬꓲ ꓪꓽ ꓐ, ꓢꓶ (ꓟꓳꓓꓳ) ꓜꓶ ꓡˍ ꓡꓳ꓿ ꓣꓳꓽ ꓐꓶꓻ ꓓꓳ ꓞꓳ ꓫꓵꓽ ꓐꓴ ꓥꓳꓽ ꓗꓪ by ꓕꓱ ꓕꓲ ꓘꓶ ꓮꓽ ꓘꓶ ꓟꓽ ꓣꓱꓽˍ ꓟ ꓡꓰ ꓡꓳ. ꓟꓳˍ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "can",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓐ ꓡ꓾ ꓓ꓾ ꓬꓰ ꓓ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "I can help you with your school assignments often, but I don’t have ability to make you pass the exam.",
-                "lisu": "ꓠꓴ ꓙꓳꓥ ꓕꓳ ꓶ ꓵ ꓢꓳˍ ꓟ ꓗꓪ ꓕꓲ ꓖꓺ ꓕꓲ ꓧꓪ, ꓠꓬ ꓥꓪ ꓬꓰ ꓙ ꓐ ꓡˍ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ꓾ ꓠꓴ ꓔꓯ ꓕꓳ ꓶ ꓘꓮꓳ ꓧꓪ. ꓡꓰ ꓓꓴ ꓬꓰ ꓖꓶ ꓠ, ꓟ ꓑꓷꓽ ꓢꓲ, ꓠꓽ ꓥꓪ ꓟꓽ ꓙꓳ꓿ (ꓠꓴ ꓚꓲ ꓛꓬ ꓢꓳ ꓢꓯꓼ ꓕꓵꓼˍ ꓗꓪ ꓡꓰꓽ ꓓ, ꓡꓳ꓿)",
-                "mm": ""
-            }]
-        }, {
-            "eng": "catch",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓣꓴ꓾ ꓠꓬ, ꓣꓴ꓾ ꓖꓼ ꓣꓴ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Akhi Ngua is trying to catch a hen in the garden.?",
-                "lisu": "ꓥꓪ. ꓮ.‐ꓘꓲ ꓠꓬ ꓪꓳꓽ ꓐꓱ ꓠꓯꓸꓼ ꓗꓪ ꓮ. ꓬ. ꓟꓺ ꓕꓲ ꓘ, ꓖꓼ ꓣꓴ ꓔꓬ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "catch up",
-            "eng_type": [{
-                "type": "phrasal"
-            }],
-            "lisu": "ꓛꓳ ꓖꓼ=",
-            "mm": "",
-            "syntax": []
-        }, {
-            "eng": "chance",
-            "eng_type": [{
-                "type": "n"
-            }, {
-                "type": "adj"
-            }],
-            "lisu": "ꓚꓲꓺ ꓧꓴꓲꓸꓼ꓿ ꓳ ꓗꓼ꓿{ ꓫꓵꓽ ꓧꓶꓴ.꓾ ꓥ ꓠꓬ ꓟꓲ. ꓡꓰ ꓖꓶ ꓡˍ ꓟ ꓫꓵꓽ }꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "God gave him another chance to win.",
-                "lisu": "ꓪꓴ‐ꓢ ꓡꓰ ꓬꓲ ꓔꓯ ꓧꓪ. ꓡꓰ ꓠ, ꓟ ꓚꓲ ꓧꓴꓲꓸꓼ ꓝꓮꓲ ꓕꓲ ꓓꓽ ꓖꓶ ꓗꓷꓳ꓿ ꓧꓪꓽ ꓒꓬꓰꓼ ꓔꓯ ꓮ. ꓔꓲ. ꓫꓱ.ˍ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ꓾ ꓧꓪꓽ ꓒꓬꓰꓼ ꓠꓽ opportunity ꓥ꓿ ꓞꓳ ꓤ ꓡꓰ ꓧꓪ ꓟꓶꓻ꓾ ꓫꓬ, ꓣꓴ ꓐ ꓡˍ ꓫꓵꓽ ꓥꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "china",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓚꓳꓥ ꓗꓴꓷꓼ꓾ ꓧꓶ ꓟꓵꓽ꓿",
-            "mm": "",
-            "syntax": []
-        }, {
-            "eng": "church",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓪꓽ ꓘꓴ ꓦꓲ꓾ ꓢꓲꓽ ꓫꓬꓻ ꓦꓲ꓿ ꓘꓴ‐ꓜꓲ‐ꓞꓳ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Church is a place where Christians worship God in group.",
-                "lisu": "ꓪꓽ ꓘꓴ ꓦꓲ ꓠꓬ ꓙꓲ ꓢꓴ ꓢꓲ ꓤꓼ ꓐꓴ ꓕꓲ ꓠꓲ, ꓕꓲ ꓪˍ ꓪꓴ‐ꓢ ꓔꓯ ꓪꓴ. ꓓꓵ ꓕꓱꓼ ꓔꓶ. ꓥ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "circle",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓚꓳ ꓡꓴ.꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Build a circle shape wooden house.",
-                "lisu": "ꓚꓳ ꓡꓴ. ꓒꓬꓱꓽ ꓢꓲ, ꓘꓪ. ꓦꓲ ꓕꓲ ꓢꓶ ꓫꓬ,꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "color",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓬꓲ ꓢꓷꓽ꓿ ꓤ. ꓒꓬꓱꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "What is your favorite color?",
-                "lisu": "ꓠꓴ ꓮꓽ ꓘꓶ ꓫꓲꓽ ꓧꓪˍ ꓟ ꓬꓲ ꓢꓷꓽ ꓠꓬ ꓮ. ꓫꓵꓽ  ꓥ ꓡ?",
-                "mm": ""
-            }]
-        }, {
-            "eng": "college",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓘꓳ. ꓡꓲꓼ꓿ ꓘꓳ. ꓡꓲꓼ ꓙꓳꓥꓽ꓿ ꓔ, ꓫꓬꓳꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "There are ten college students in our village?",
-                "lisu": "ꓣꓳꓽ ꓘ, ꓗꓪ ꓘꓳ. ꓡꓲꓼ ꓙꓳꓥꓽ ꓢꓳ ꓤ 10 ꓙꓳˍ ꓡꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "come",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓡꓻ꓾ ꓛꓲ ꓡꓻ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "I have come to see you, my dad.",
-                "lisu": "ꓥꓪ ꓠꓴ ꓔꓯ ꓡ ꓜꓲꓻ ꓡ ꓟ ꓥ ꓡꓳ꓾ ꓐ, ꓐꓽꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "computer",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓗꓳ ꓑꓬꓴ ꓔꓺ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Windows is the first computer operating system.",
-                "lisu": "ꓪꓲꓥ‐ꓓꓳ, ꓠꓬ ꓗꓳ‐ꓑꓬꓴ‐ꓔ ꓔꓯ ꓟꓬꓱꓽ ꓬꓰ ꓝꓲ ꓓꓴ ꓢꓲ‐ꓢꓶ‐ꓔꓯꓺ ꓪꓴ. ꓠꓷ. ꓥꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "cone",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓦ ꓜꓱꓼ ꓡꓴꓻ꓿",
-            "mm": "",
-            "syntax": []
-        }, {
-            "eng": "cone shaped cup",
-            "eng_type": [{
-                "type": "phrase"
-            }],
-            "lisu": "ꓦ ꓜꓱꓼ ꓗꓴꓰ.꓿",
-            "mm": "",
-            "syntax": [{
-                "lisu": "ꓦ ꓜꓱꓼ ꓠꓬ ꓦ ꓐꓬꓱꓽ ꓙꓳˍ ꓡꓳ꓿ ꓢ ꓜꓱꓼ ꓠꓽ ꓟꓽ ꓥ꓿ ꓦ ꓒꓬꓱꓽ ꓗꓴꓰ.꓾ ꓥˍ ꓠꓬ ꓦ ꓒꓬꓱꓽ ꓡꓴꓻ ꓐꓯ ꓛꓵꓳ꓿"
-            }]
-        }, {
-            "eng": "count",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓵ꓿ ꓵ ꓠꓬꓲ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Can you count how many fish in this pond?",
-                "lisu": " ꓥꓪ. ꓐꓱ ꓕꓱ ꓟ ꓠꓯꓸꓼ ꓥꓪ.  ꓮ ꓟꓬ ꓘ, ꓓꓯ, ꓟ ꓠꓴ ꓵ ꓐ ꓡˍ ꓡ? ",
-                "mm": ""
-            }]
-        }, {
-            "eng": "country",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓗꓴꓷꓼ꓿ ꓟꓵꓽ꓾ ꓪꓽ ꓚꓲ ꓟꓵꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "My country is the U.S.A.",
-                "lisu": " ꓥꓪ ꓗꓴꓷ ꓠꓬ ꓟꓷꓽ ꓗꓴꓷꓼ ꓥꓳ꓿",
-                "mm": ""
-            }, {
-                "eng": "Western country is my favorite music.",
-                "lisu": "ꓐꓶꓻ ꓓꓵꓽ ꓪꓽ ꓚꓲ ꓪꓽ ꓐꓽ ꓟꓵꓽ ꓟꓴꓖꓪꓽ ꓠꓬ ꓥꓪ ꓮ. ꓓꓲꓽ ꓠꓵˍ ꓟ ꓟꓴꓖꓪ ꓥꓳ꓿ ( ꓪꓽ ꓚꓲ ꓪꓽ ꓐꓽ ꓟꓵꓽ ꓗꓪ ꓔꓬ ꓢꓴ ꓐꓴ ꓟꓬꓽ ꓠꓬꓲ ꓖꓪ ꓛꓵˍ ꓟ ꓟꓴꓖꓪ ꓕꓱ ꓟ ꓔꓯ “ꓞꓳ ꓟꓳꓽ ꓪꓽ ꓡꓵꓺ ꓟꓴ : ꓖꓪ” ꓐꓯˍ ꓟꓲ ꓧꓳ,ˍˍ ꓡꓳ꓿)",
-                "mm": ""
-            }]
-        }, {
-            "eng": "court",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓢꓲ, ꓘꓶ ꓦꓲ꓿ ꓐꓯ ꓟꓴ ꓫꓬ, ꓦꓲ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "The judge at the court finally ruled out the villagers’ dispute over a trifle.",
-                "lisu": "ꓬꓲ ꓟꓶ ꓕꓯ꓾ ꓐꓯ ꓟꓴ ꓦꓲ ꓗꓪ ꓢꓲ, ꓓꓶꓺ ꓒ (ꓐꓯ ꓟꓴ ꓞꓷ, ꓒ) ꓡꓰ꓾ ꓕꓲ ꓫꓵꓽ ꓟꓽ ꓥˍ ꓟ ꓘ, ꓤ ꓡꓳ ꓤ ꓐꓴ ꓫꓵꓽ ꓪꓴꓻ ꓔꓯ ꓠꓽ ꓡꓰ ꓝꓲꓳ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "criminal",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓙꓵꓽ ꓗ ꓞꓳ. ꓢꓴ꓾ ꓞꓳ ꓥꓶꓺ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": " The criminals and lawless generally ended as homeless although they were not the poor.",
-                "lisu": "ꓞꓳ ꓥꓶꓺ ꓐꓰ ꓙꓵꓽ ꓗꓺ ꓔꓯ ꓞꓳ. ꓢꓴ ꓬꓲꓮ ꓦꓬꓼ ꓠꓬꓲ ꓠꓬ ꓦꓲ ꓟꓽ ꓙꓳ ꓗꓪ ꓟꓽ ꓙꓳ ꓗꓪ ꓡꓳ, ꓬꓰˍ ꓟꓲ꓾ ꓬꓲ ꓚꓽ ꓐꓯ ꓕꓯ ꓬꓲ ꓪꓽ ꓠꓽ ꓞꓳ ꓫ ꓟꓽ ꓥ꓿",
-                "mm": ""
-            }]
-        }, {
-            "eng": "cup",
-            "eng_type": [{
-                "type": "n"
-            }],
-            "lisu": "ꓗꓴꓰ. ꓗꓴꓰ.꓾ ꓑꓷꓺ꓾ ꓗꓷ.꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "Can you give me a glass of water?",
-                "lisu": "ꓬꓲꓻ ꓙꓬ ꓕꓲ ꓗꓷ. ꓤꓼ ꓖꓶ ꓓꓳ ꓓˍ ꓡ? ",
-                "mm": ""
-            }]
-        }, {
-            "eng": "cut",
-            "eng_type": [{
-                "type": "v"
-            }],
-            "lisu": "ꓓꓶꓺ꓾ ꓘꓶ꓾ ꓕꓳ,꓾ ꓞꓶ꓾ ꓐꓬꓼ꓾ ꓛꓵꓻ꓾ ꓝꓱꓺ꓾ ꓫꓳꓽ꓿",
-            "mm": "",
-            "syntax": [{
-                "eng": "cut, cut, cut. We must not cut the expense on food and drink.",
-                "lisu": "ꓜ ꓓꓳꓻ ꓓꓴ ꓗꓪ ꓣꓱꓽ ꓠ, ꓟ ꓒꓴ ꓔꓯ ꓓꓶꓺ ꓟꓽ ꓛꓵ꓿ ",
-                "mm": ""
-            }]
+          "type": "adv"
         }
-    ]
+      ],
+      "lisu": " ꓗ ꓠꓯ.꓿ ꓗ ꓠꓯ.ꓢꓲꓺ ꓗꓪ꓿ ",
+      "mm": "နောက်မှာ ၊ နောက် ၊ နောက်ကနေ",
+      "syntax": [{
+          "eng": "After school they all went into the forest and picked the wood for fuel.",
+          "lisu": "ꓙꓳꓥꓽ ꓗꓪ ꓐꓰ ꓡꓽ ꓡ ꓗ ꓠꓯ.ꓬꓲ ꓪꓽ ꓮꓽ ꓙꓵ ꓠꓬ ꓢꓲ, ꓠꓯ ꓡꓲ ꓗꓪ ꓓꓵꓽ ꓙꓰ ꓢꓲ ꓢꓲ, ꓚꓳ.ꓧꓪ ꓖꓳꓺ ꓬꓰˍ ꓡꓳ꓿ ",
+          "mm": ""
+        },
+        {
+          "eng": "Several years after the war, the country became prosperous again.",
+          "lisu": "ꓟꓯꓼ ꓟꓶꓽ ꓙꓽ ꓖꓴ ꓡꓰ ꓗ ꓠꓯ, ꓢ ꓡꓲ ꓘꓳꓼ ꓕꓯ ꓬꓲ ꓪꓽ ꓗꓴꓷ ꓠꓬ ꓝꓮꓲ ꓪꓴꓽ ꓟꓴ ꓡꓻꓳ꓿",
+          "mm": ""
+        }
+      ]
+    },
+    {
+      "eng": "allow",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": " ꓖꓶ (ꓬꓰ)꓾ ꓖꓶ(ꓙꓰ)꓿ ",
+      "mm": "ခွင့်ပြု",
+      "syntax": [{
+        "eng": "Acha’ parents didn’t allow her to go out at night.",
+        "lisu": " ꓟꓶ ꓘꓶ ꓠꓯ ꓞꓲ, ꓡꓰ ꓕꓯ꓾ ꓮ‐ ꓛ ꓔꓯ ꓬꓲ ꓐ, ꓐ ꓟ, ꓟ ꓡꓰ ꓬꓲ ꓐꓽ ꓟꓽ ꓖꓶ ꓓꓳ꓿ ",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "am",
+      "eng_type": [{
+        "type": "v-be"
+      }],
+      "lisu": " ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ꓿ ",
+      "mm": "ဖြစ်သည်၊ ရှိသည်၊ နေထိုင်သည်။",
+      "syntax": [{
+          "eng": "I am a school teacher.",
+          "lisu": " ꓥꓪ ꓠꓬ ꓙꓳꓥꓽ ꓟ.ꓒ ꓕꓲ ꓣꓳ ꓥ ꓡꓳ꓿ ",
+          "mm": ""
+        },
+        {
+          "eng": "Where is my wallet? ",
+          "lisu": "ꓥꓪ ꓒꓴ ꓗꓶꓺ ꓕꓴꓽ ꓮ ꓗꓪ ꓓ, ꓡ ? ",
+          "mm": ""
+        },
+        {
+          "eng": "You are in Myanmar, but I am in the USA.",
+          "lisu": "ꓠꓴ ꓠꓬ ꓡꓳ‐ ꓟꓲ ꓗꓴꓷ ꓗꓪ ꓔꓬ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ ꓥꓪ ꓠꓽ ꓟꓷꓽ ꓗꓴꓷꓼ ꓗꓪ ꓔꓬ ꓡꓳ꓿ ",
+          "mm": ""
+        }
+      ]
+    },
+    {
+      "eng": "america",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": " ꓟꓷꓽ ꓚꓷꓴ꓿ ",
+      "mm": "အမေရိကား၊ အမေရိကန်",
+      "syntax": [{
+        "eng": "The U.S.A. is located inside North America.",
+        "lisu": " ꓟꓷꓽ ꓗꓴꓷ ꓠꓬ ꓡꓳ ꓪꓴ.ꓟꓷꓽ ꓚꓷꓴ ꓘꓴꓽ ꓗꓪ ꓥ ꓡꓳ꓿ ",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "american",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": " ꓟꓷꓽ ꓚꓷꓴ ꓒ꓿",
+      "mm": "အမေရိကန် နိုင်ငံသား။",
+      "syntax": [{
+        "eng": "People who live in the U.S.A. are called Americans.",
+        "lisu": "ꓟꓷꓽ ꓗꓴꓷ ꓠꓯꓸꓼ ꓔꓬ ꓢꓴ ꓑꓺ ꓫꓬꓼ ꓡꓽ ꓞꓳ ꓮꓽ ꓙꓵ ꓔꓯ ꓮꓽ‐ ꓟꓯ‐ ꓡꓲ‐ ꓘꓯꓠ ꓐꓯˍ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "annual",
+      "eng_type": [{
+        "type": "adj"
+      }],
+      "lisu": " ꓘꓳꓼ ꓚꓳ꓿ ꓕꓲ ꓘꓳꓼ ꓕꓲ ꓧꓪ, ꓬꓰˍ ꓟ꓾ ꓒꓬꓱꓼˍ ꓟ꓿ ",
+      "mm": "နှစ်ပတ်လည်။",
+      "syntax": [{
+        "eng": " Our company’ s annual meeting will be held today. ",
+        "lisu": "ꓣꓳꓽ ꓗꓳ‐ ꓑ‐ ꓠꓰ(ꓗꓳꓥ ꓢꓶꓺ) ꓘꓳꓼ ꓚꓳꓺ ꓜꓲꓼ ꓓꓴ ꓠꓬ ꓠꓬꓲ.ꓟꓲ ꓥꓳ꓿ ",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "another",
+      "eng_type": [{
+          "type": "adj"
+        },
+        {
+          "type": "pron"
+        }
+      ],
+      "lisu": " ꓠꓱ . ꓐꓯꓼ ( ꓕꓲ ꓟ ) ꓿ ꓝꓮꓲ ( ꓕꓲ ꓟ꓾ ꓕꓲ ꓣꓳ ) ꓿ ",
+      "mm": "အခြား၊ နောက်ထပ်။",
+      "syntax": [{
+        "eng": " Do you have another one? ",
+        "lisu": "ꓠꓴ ꓔꓯ ꓠꓱ . ꓐꓯꓼ ꓕꓲ ꓟ ꓙꓳˍ ꓢꓰꓽ ꓡ? ",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "answer",
+      "eng_type": [{
+          "type": "v"
+        },
+        {
+          "type": "n"
+        }
+      ],
+      "lisu": " ꓒꓳ, ꓖꓶ꓾ ꓒꓳ, ꓘꓶ꓿ ꓓꓽ ꓔꓳ,꓾ ꓓꓽ ꓔꓳ, ꓘꓶ꓿",
+      "mm": "အဖြေပေး ၊ ပြန်ကြား။",
+      "syntax": [{
+        "eng": "“ Of course, I will.” John answered. ",
+        "lisu": "ꓬꓳ‐ꓦ ꓡꓰ꓾ “ꓥ ꓡꓯ꓾ ꓥꓪ ꓬꓰˍ ꓥꓳ꓿” ꓐꓰ ꓒꓳ, ꓖꓶˍ ꓡꓳ꓿ ",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "anticipate",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓦ ꓐꓬꓱꓽ ꓟꓳ ꓥꓳꓺ ꓡꓳ.꓿",
+      "mm": "တင်ကြိုစိတ်ကူးမျော်မှန်း၊ တင်ကြိုစိတ်ကူးသိမြင် ။",
+      "syntax": [{
+        "eng": "“ In fact, that Hollywood movie producer did not anticipated his last movie would fetch hundreds of million dollars.",
+        "lisu": "ꓬꓲ ꓚꓽ ꓐꓯ ꓕꓯ꓾ ꓧꓳ‐ꓡꓲ‐ꓪꓴꓼ ꓢꓯ. ꓐꓬꓱꓽ ꓫꓬ, ꓓꓳꓺ ꓒ ꓖꓳ ꓕꓲ ꓣꓳ ꓠꓬ꓾ ꓬꓲ ꓢꓯ. ꓐꓬꓱꓽ ꓬꓲ ꓟꓶ ꓕꓱ ꓕꓲ ꓟ ꓗꓪ ꓐꓰ ꓒꓴ ꓬꓲ ꓦꓬꓻ ꓟꓲ‐ꓡꓬ ꓓꓳ‐ꓡ ꓫꓺ ꓟꓶꓻˍ ꓓꓴ ꓐꓰ ꓟꓽ ꓥꓳꓺ ꓡꓳ. ꓔ ꓫꓵꓽ ꓥꓳ꓿",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "are",
+      "eng_type": [{
+        "type": "v-be"
+      }],
+      "lisu": "ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ꓿",
+      "mm": "ဖြစ်သည်၊ ရှိသည်၊ နေထိုင်သည်။",
+      "syntax": [{
+          "eng": "You are a hospital nurse.",
+          "lisu": "ꓠꓴ ꓠꓬ ꓠꓯ ꓞꓲꓼ ꓦꓲ ꓗꓪ ꓟ ꓠ,‐ꓢꓶ ꓟꓺ  ꓕꓲ ꓣꓳ ꓥ ꓡꓳ꓿",
+          "mm": ""
+        },
+        {
+          "eng": "Where are the patients?",
+          "lisu": " ꓞꓳ ꓠꓻ ꓐꓴ ꓮ ꓡꓲ ꓗꓪ ꓥ ꓡ?",
+          "mm": ""
+        },
+        {
+          "eng": "They are inside the ward.",
+          "lisu": " ꓬꓲ ꓪꓽ ꓠꓬ ꓞꓳ ꓠꓻ ꓬꓲꓼ ꓔ ꓗꓳ, ꓠꓯꓸꓼ ꓗꓪ ꓥ ꓡꓳ꓿",
+          "mm": ""
+        }
+      ]
+    },
+    {
+      "eng": "art",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": " ꓬꓲꓸꓼ ꓫꓴꓸꓼ꓾ ꓚꓰꓼ ꓜꓰꓺ ꓜꓯꓺ ꓑꓵ, ꓤ. ꓢꓷ ꓠꓲ,꓿ ꓟꓷꓽ ꓫꓴꓸꓼ꓿ ꓢꓷ ꓠꓲ,꓿",
+      "mm": "အနုပညာ။",
+      "syntax": [{
+        "eng": "Art is the expression of human creative skill and imagination, typically in a visual form such as  painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power.",
+        "lisu": "ꓬꓲꓸꓼ ꓫꓴꓸꓼ ꓐꓯˍ ꓟ ꓠꓬ꓾ ꓚꓰꓼ ꓜꓯꓻ ꓡꓯꓼ ꓟꓬꓱꓽ ꓢꓷ ꓠꓲ, ꓐꓰ ꓦ ꓐꓬꓱꓽ ꓐꓴ ꓔꓯ ꓬꓲ ꓑꓰ, ꓬꓰ ꓓꓳ ꓡ ꓢꓲ꓾ ꓛꓳꓽ ꓟꓳ ꓢꓴ ꓠꓲ, ꓟ ꓔꓯ ꓡꓵ, ꓔꓴ ꓡꓵ, ꓢꓴꓺ ꓐ ꓡˍ ꓟ ꓐꓲꓻ ꓒꓬꓱꓽ ꓐꓰ ꓢꓯꓼ ꓪꓽ ꓗꓴꓺ ꓓꓯ, ꓟ ꓡꓯꓼ ꓟꓬꓱꓽ ꓐꓴ ꓔꓯ ꓐꓯˍ ꓡꓳ꓿ ꓔꓯ ꓑꓲꓽ꓾ ꓚꓰꓼ ꓜꓯꓻ ꓐꓳ ꓔ ꓟ ꓟꓴꓽ ꓖꓪꓽ ꓐꓰ ꓘꓶ ꓪꓰ ꓐꓰ ꓔꓯꓺ ꓐꓬꓱꓽ drama ꓾ ꓤ. ꓦ,꓾ ꓧꓪꓸꓼ ꓦ, ꓟ ꓐꓬꓱꓽ ꓒꓬꓽ꓾ ꓜꓰꓺ ꓔ ꓑꓵ, ꓔ ꓟ ꓐꓬꓱꓽ ꓑꓵ, sculptures ꓡꓰꓳ ꓫꓵꓽ ꓔꓯ ꓐꓯˍ ꓡꓳ꓿ The Lisu Musical Artists association ꓡꓲ‐ꓢꓴ ꓟꓴꓽ ꓖꓪ ꓐꓰ ꓟꓬꓴ, ꓜꓲꓼ ꓗꓴ. ꓒ ꓐꓴ ꓙꓻ ꓡꓯꓼ ꓘꓳ ꓜꓴ꓿ The Lisu Artists Association ꓡꓲ‐ꓢꓴ ꓐꓬꓱꓽ ꓤ. ꓒ ꓙ ꓡꓯꓼ ꓘꓳ ꓜꓴ꓿ ",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "as",
+      "eng_type": [{
+        "type": "adv"
+      }],
+      "lisu": "ꓫꓱꓸꓼ꓾ ꓡꓰ ꓐꓰ꓾ ꓒꓬꓱꓽ ꓗꓪ꓾ ꓕꓲ ꓒꓳ, ꓗꓪ ꓐꓰ꓿",
+      "mm": "အဖြစ်၊ ကဲ့သို့၊ လို၊ အသွင်ဖြင့်။",
+      "syntax": [{
+        "eng": "Once upon a time, there it rained hailstones as big as a water melon in a village.",
+        "lisu": "ꓮꓽ ꓠꓱ ꓕꓯ꓾ ꓞꓳ ꓘ, ꓕꓲ ꓟ ꓗꓪ ꓒꓵꓽ ꓜꓲꓽ ꓢꓶ ꓡꓰ ꓐꓰ ꓕꓱ ꓪꓴꓻ ꓗ, ꓫꓵꓽ ꓪꓽ ꓢꓶ ꓟꓶ ꓦ ꓬꓯꓼˍ ꓙꓳꓽ꓿(ꓒꓵꓽ ꓜꓲꓽ ꓢꓶ ꓫꓱ. ꓫꓱꓸꓼ ꓪꓴꓽˍ ꓟ꓿)",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "ask",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "1. ꓠ ꓠꓬꓲ꓿ 2. ꓓꓰꓽ꓾ ꓖꓶꓻ ꓬꓲꓼ꓿",
+      "mm": "မေး၊ မေးမြန်း။",
+      "syntax": [{
+        "eng": "Please ask the stranger where he is from.",
+        "lisu": " ꓞꓳ ꓜꓲꓽ ꓕꓱ ꓕꓲ ꓣꓳ ꓔꓯ ꓬꓲ ꓮ ꓡꓲ ꓗꓪ ꓚꓳ. ꓡˍ ꓡꓽ꓾ ꓠꓺ ꓠꓬꓲ꓿",
+        "mm": ""
+      }]
+    },
+    {
+      "eng": "authority",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓙꓵꓽ ꓪꓽ꓿",
+      "mm": "အာဏာ",
+      "syntax": [{
+        "eng": "What authority do you have that you order me to do this and that?",
+        "lisu": " ꓥꓪ ꓔꓯ ꓕꓱ ꓡꓱ ꓬꓰ꓾ ꓖꓳꓡꓱ ꓬꓰ ꓐꓰ ꓝꓲꓺ ꓠ , ꓟ꓾ ꓕꓵꓼ ꓪꓽ ꓖꓶ ꓠ, ꓟ ꓠꓴ ꓔꓯ ꓮ . ꓫꓵꓽ ꓙꓵꓽ ꓪꓽ ꓕꓲ ꓟ ꓙꓳˍ ꓡ ? ",
+        "mm": ""
+      }]
+    }, {
+      "eng": "back",
+      "eng_type": [{
+        "type": "adv"
+      }, {
+        "type": "n"
+      }],
+      "lisu": "ꓗ ꓠꓯ, ꓢꓲꓺ꓾ ꓗ ꓠꓯ ꓔꓯ ꓟꓳ.꓿ ꓗ ꓠꓯ.꓾ ꓗ. ꓗꓳꓺ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "They decided to go back as it was getting dark.",
+        "lisu": "ꓠꓯ ꓞꓲ, ꓡꓰ ꓔꓬ ꓟ ꓐꓰ ꓕꓲ ꓡꓰꓹꓼ꓾ ꓗ ꓠꓯ. ꓢꓲꓺ ꓡꓽ ꓙꓰ ꓠ, ꓟ (ꓚꓱ, ꓡꓽ ꓙꓰ ꓠ , ꓟ) ꓬꓲ ꓪꓽ  ꓓꓵꓽ ꓙ ꓞꓷ, ꓗꓷꓳ꓿",
+        "mm": ""
+      }, {
+        "eng": "Lie on you back and stretch out your legs.",
+        "lisu": "ꓠꓴ ꓗ. ꓗꓳꓺ ꓗꓪ (ꓔꓯ. ꓡꓯꓼ ꓥꓪꓺ ꓢꓲꓺ) ꓬꓲꓼ ꓔ ꓢꓲ ꓠꓴ ꓛꓲ ꓒꓯ, ꓠꓬꓲꓽ ꓐꓽ ꓔꓯ ꓛꓱꓺ ꓩꓴ ꓗꓷ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "bank",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓐꓮꓥ꓿ ꓒꓴ ꓞꓳꓽ ꓦꓲ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "The bank is where you keep your money safely.",
+        "lisu": "ꓐꓮꓥ ꓒꓴ ꓞꓳꓽ ꓦꓲ ꓠꓬ ꓙꓽ ꓫ ꓓꓴ ꓟꓽ ꓙꓳ ꓟ ꓠꓴ ꓒꓴ ꓫꓺ ꓔꓶ. ꓥꓳ꓿ˍ ꓥꓳ꓿ ( safely ꓕꓱ ꓕꓲ ꓘꓶ ꓔꓯ ꓡꓴ ꓫꓵꓺ ꓡꓲꓢꓴ ꓐꓴ ꓠꓬ ꓩ. ꓫꓲ ꓓˍ ꓟ ꓐꓰ ꓐꓯ ˍꓡꓳ꓿ )",
+        "mm": ""
+      }]
+    }, {
+      "eng": "be",
+      "eng_type": [{
+        "type": "v-be"
+      }],
+      "lisu": "ꓥ ꓡꓳ꓿ ꓓ, ꓡꓳ꓿ ꓔꓬ ꓡꓳ { am is are ꓕꓱ ꓢ ꓘꓶ ꓡꓱꓸꓼ ꓟ ꓬꓲꓼ ꓛꓲ ꓣꓱꓽˍ ꓡꓳ꓿}",
+      "mm": "",
+      "syntax": [{
+        "eng": "I will be there with  you very soon.",
+        "lisu": "ꓥꓪ ꓳ. ꓗꓪ ꓟꓽ ꓟꓶꓺ ꓫꓵꓺ ꓕꓯ ꓠꓴˍ ꓐꓰ ꓕꓲ ꓪˍ ꓔꓬ ꓥꓳ꓿",
+        "mm": ""
+      }, {
+        "eng": "Don’t be lazy to do your home-works, boys.",
+        "lisu": "ꓦꓲ ꓗꓪ ꓕꓳ ꓶ ꓵ ꓢꓳ ꓐꓳ ꓢꓳ ꓠ, ꓟ ꓕ ꓐꓴꓻ꓾ ꓮ ꓐꓲ ꓤꓼ ꓐꓴꓳ꓿",
+        "mm": ""
+      }, {
+        "eng": "Would you be happy if your ex-wife comes back?",
+        "lisu": " ꓕꓲꓽ ꓙꓬꓼ ꓧ, ꓗꓷ ꓟ ꓠꓴ ꓦꓲ ꓢꓲ ꓟ ꓝꓮꓲ ꓡꓽ ꓡˍ ꓚꓰꓼ ꓐꓷ,ˍ ꓠꓬ ꓠꓴ ꓗ, ꓛꓲꓽˍ ꓡ?",
+        "mm": ""
+      }, {
+        "eng": "They will be all home by this time tomorrow.",
+        "lisu": " ꓢ, ꓖꓶꓻ ꓕꓱ ꓕꓲ ꓙꓵ, ꓬꓲ ꓪꓽ ꓮ ꓙꓵꓽ ꓦꓲ ꓡꓽ ꓛꓲ ꓬꓰˍ ꓥꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "believe",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓙꓵ꓾ ꓦ ꓡꓱ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "You can believe the invisible God, but not the visible human kind.",
+        "lisu": "ꓟꓳ ꓟꓽ ꓓˍ ꓟ ꓪꓴ‐ꓢ ꓔꓯ ꓠꓴ ꓙꓵ ꓓˍ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ ꓟꓳ ꓓˍ ꓟ ꓞꓳ ꓤ ꓔꓯ ꓠꓴ ꓙꓵ ꓟꓽ ꓓ꓿ ꓖꓺ ꓧꓶꓺ ꓐꓰ ꓖꓳ ꓡꓱ ꓥˍ ꓟꓲ ꓠꓬ ꓬꓲ ꓕꓲ ꓘꓶˍ ꓡꓰꓽ ꓥ ꓢꓲ꓾ ꓕꓮꓲꓻ ꓟꓵꓽ ꓡꓲ-ꓢꓴ ꓐꓯ ꓘꓶ ꓥ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "big",
+      "eng_type": [{
+        "type": "adj"
+      }],
+      "lisu": "ꓪꓴꓽˍ ꓟ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Chicken egg is bigger than dove egg.",
+        "lisu": "ꓮ. ꓬ. ꓩꓴ ꓠꓬ ꓮ. ꓖꓴꓽ ꓩꓴ ꓕꓯ ꓢꓲꓺ ꓪꓴꓽˍ ꓡꓳ꓿ ",
+        "mm": ""
+      }]
+    }, {
+      "eng": "bigger",
+      "eng_type": [{
+        "type": "adj"
+      }],
+      "lisu": "ꓟꓬꓽ ꓠꓬꓲ ꓪꓴꓽˍ ꓟ꓾ ꓪꓺ ꓜꓲ ꓪꓴꓽˍ ꓟ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Chicken egg is bigger than dove egg.",
+        "lisu": "ꓮ. ꓬ. ꓩꓴ ꓠꓬ ꓮ. ꓖꓴꓽ ꓩꓴ ꓕꓯ ꓢꓲꓺ ꓪꓴꓽˍ ꓡꓳ꓿ ",
+        "mm": ""
+      }]
+    }, {
+      "eng": "biggest",
+      "eng_type": [{
+        "type": "adj"
+      }],
+      "lisu": "ꓪꓴ ꓓꓰ ꓡꓰ ꓟ꓾ ꓮꓽ ꓙꓵ ꓪꓴ. ꓗꓪ ꓪꓴꓽ ꓓꓰ ꓡꓰ ꓟ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Chicken egg is bigger than dove egg.",
+        "lisu": "ꓮ. ꓬ. ꓩꓴ ꓠꓬ ꓮ. ꓖꓴꓽ ꓩꓴ ꓕꓯ ꓢꓲꓺ ꓪꓴꓽˍ ꓡꓳ꓿ ",
+        "mm": ""
+      }]
+    }, {
+      "eng": "bible",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓢꓲꓽ ꓫꓬ ꓕꓳ ꓶ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "There are two parts in the bible book.",
+        "lisu": "ꓢꓲꓽ ꓫꓬ ꓕꓳ ꓶ ꓑꓷꓠ ꓠꓬ ꓠꓬꓲꓽ ꓐꓱꓻ  ꓙꓳˍ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "black",
+      "eng_type": [{
+        "type": "adj"
+      }, {
+        "type": "n"
+      }],
+      "lisu": "ꓠꓯꓺ꓾ ꓬꓲ ꓠꓯ꓿ ꓞꓳ ꓠꓯꓺ ꓫꓵꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Her eye and hair are black.",
+        "lisu": "ꓬꓲ ꓟꓬ ꓢꓶ ꓐꓰ ꓪꓴ. ꓞꓱꓻ ꓐꓴ ꓠꓬ ꓠꓯꓺ ꓠꓯꓺ ꓗ, ꓡꓳ꓿",
+        "mm": ""
+      }, {
+        "eng": "The Blacks in the US are kings of the athletes.",
+        "lisu": "ꓟꓷꓽ ꓗꓴꓷ ꓗꓪ ꓔꓬ ꓟ ꓞꓳ ꓠꓯ ꓐꓴ ꓠꓬ ꓡꓳ ꓖꓪꓺ ꓪꓽ ꓝꓲꓺ ꓐꓴ ꓥꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "bless",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": " ꓶꓼ ꓥꓳꓽ ꓙꓱꓽ ꓖꓶ꓾ ꓶꓼ ꓤ ꓫꓱ. ꓤ ꓖꓶ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Blessed are those who make peace.",
+        "lisu": "ꓧꓳ, ꓡꓯꓼ ꓘꓳ ꓪꓽ ꓡꓯꓼ ꓘꓳ ꓚꓱ, ꓫꓬ, ꓢꓴ ꓠꓬ ꓶꓼ ꓙꓳ ꓫꓱ, ꓙꓳˍ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "blew",
+      "eng_type": [{
+        "type": "v"
+      }, {
+        "type": "pp"
+      }],
+      "lisu": "ꓙꓱꓼ ꓗꓷꓳ꓾ ꓟꓲꓽ ꓦꓲ ꓙꓱꓼ ꓗꓷꓳ꓾ ꓟꓲꓽ ꓦꓲ ꓙꓱꓼ ꓗꓳ. ꓙꓰꓳ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Last night the wind blew at a speed of 50 mph.",
+        "lisu": "ꓮꓽ ꓟꓰꓻ ꓟꓶꓼ ꓘꓶ꓾ ꓟꓲ ꓦꓲ ꓠꓬ ꓕꓲ ꓙꓵ, ꓗꓪ 50 ꓟꓲ ꓢꓴ. ꓙꓱꓼ ꓗꓷꓳ꓿ ꓢꓴ. ꓠꓬ နှုန်း ꓥ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "blind",
+      "eng_type": [{
+        "type": "adj"
+      }, {
+        "type": "n"
+      }],
+      "lisu": "ꓟꓬ ꓛꓱꓽ꓾ ꓟꓬ ꓔꓶꓺ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "The doctors can save you from becoming blind from this cataract.",
+        "lisu": "ꓟꓬ ꓒꓴ ꓕꓱ ꓟ ꓗꓪ ꓐꓰ ꓠꓴ ꓟꓬ ꓢꓶ ꓛꓱꓼˍ ꓗꓪ ꓟꓽ ꓛꓲ ꓬꓰ ꓠ, ꓟ ꓠꓴ ꓔꓯ ꓠꓯ ꓞꓲꓼ ꓟ. ꓒ ꓓꓳ‐ꓔ ꓐꓴ ꓚꓬꓴ .ꓙ ꓐ ꓡˍ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "blow",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓙꓱꓼ꓾ ꓟꓲꓽ ꓦꓲ ꓙꓱꓼ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "“ You are supposed to blow off the candle lights only after the song Happy Birthday is finished” said the baby girl’ s mother.",
+        "lisu": "”ꓗ, ꓛꓲˍ ꓟ ꓦꓵ ꓦꓬꓼ ꓠꓬꓲ ꓟꓴꓽ ꓖꓪꓽ ꓖꓳ ꓟ ꓖꓪ ꓓꓳ ꓡꓰ ꓕꓯ ꓢꓲ꓾ ꓫꓳ. ꓓꓻ ꓮ. ꓔꓳ. ꓟꓵꓺ ꓢꓰꓼ ꓥ꓿” ꓐꓰ ꓮ. ꓟꓲꓽ ꓤꓼ ꓔꓯ ꓬꓲ ꓟ, ꓟ ꓡꓰ ꓐꓯ ꓖꓶˍ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "blue",
+      "eng_type": [{
+        "type": "adj"
+      }],
+      "lisu": "ꓟꓴꓽ ꓗꓪ ꓠꓲ, ꓛꓵꓼ꓿ ꓡꓯꓽ꓿ ꓡꓯꓽ ꓢꓷꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Is that blue car yours?",
+        "lisu": "ꓟꓳ ꓓꓳ ꓡꓯꓽ ꓢꓷꓽ ꓖꓳ ꓕꓲ ꓗ. ꓠꓴ ꓔꓯ. ꓥ ꓡ? ( ꓡꓳ ꓪꓴ. ꓡꓲ‐ꓢꓴ ꓐꓴ ꓠꓬ꓾ ꓠꓴ ꓔꓯ ꓟ ꓥꓳ꓾ ꓥꓪ ꓔꓯ ꓟ ꓥꓳ꓾ ꓐꓰ “ꓟ” ꓕꓲ ꓘꓶ ꓮꓽ ꓘꓶ. ꓟꓽ ꓔ, ꓣꓱꓽ꓿ ꓠꓴ ꓔꓯ ꓥꓳ꓿ ꓕꓱ ꓟ ꓬꓲ ꓔꓯ ꓟꓽ ꓥ꓾ ꓕꓱ ꓡꓱˍ ꓡꓰꓽ ꓐꓯˍ ꓡꓳ꓿)",
+        "mm": ""
+      }]
+    }, {
+      "eng": "book",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓕꓳ ꓶ ꓑꓷꓠꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Mark Hae has translated a Thai novel book which title was “Let us go back to our home.”Into Lisu ",
+        "lisu": "ꓦꓯ, ꓟ‐ꓘꓳ ꓡꓰ꓾ “ꓣꓳꓽ ꓦꓲ ꓗꓪ ꓡꓽ ꓙꓰ ꓡꓯꓳ” ꓐꓯꓳ ꓫꓵꓽ  ꓕꓮꓲꓻ ꓐꓳꓟꓲꓽ ꓕꓳ ꓶ ꓕꓲ ꓑꓷꓠ ꓔꓯ ꓡꓲ‐ꓢꓴ ꓥꓳꓽ ꓗꓪ ꓡꓶ. ꓐꓳ ꓦ, ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "Burmese",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓡꓳꓽ‐ꓟꓲꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Burmese is the majority tribe people who lives in the country Myanmar.",
+        "lisu": "ꓡꓳꓽ‐ꓟꓲ ꓠꓬ ꓟꓬ‐ꓟ ꓗꓴꓷ ꓗꓪ ꓟ ꓞꓳ ꓫꓵꓽ ꓔꓲꓺ ꓥ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "buy",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓪꓴ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "I will buy you a book from Amazon.",
+        "lisu": "ꓮ‐ꓟ‐ꓜꓳꓠ ꓗꓪ ꓐꓰ ꓠꓴ ꓔꓯ ꓕꓳ ꓶ ꓕꓲ ꓑꓷꓠ ꓪꓴ ꓖꓶˍ ꓠꓬꓲ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "by",
+      "eng_type": [{
+        "type": "prep"
+      }, {
+        "type": "adv"
+      }],
+      "lisu": "1. ꓡꓰ꓿ 2 . ꓮ. ꓫꓵꓽ ꓜꓶ ꓢꓲ ꓙꓰˍ ꓟ ꓖꓴ ꓟ. ꓖꓶˍ ꓕꓯ ꓣꓱꓽˍ ꓟ ꓐꓯ ꓘꓶ ꓝ.꓿ 3. ꓗꓪ ꓐꓰ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "This book was translated by Mark Gwah.",
+        "lisu": " ꓕꓳ ꓶ ꓕꓱ ꓕꓲ ꓑꓷꓠ ꓔꓯ ꓖꓪꓽ ꓟ‐ꓘꓳ, ꓡꓰ ꓥꓳꓽ ꓡꓶ. ꓐꓳ ꓦ , ꓥ꓿",
+        "mm": ""
+      }, {
+        "eng": "They came by buss.",
+        "lisu": " ꓬꓲ ꓪꓽ ꓐ, ꓢꓶ (ꓟꓳꓓꓳ) ꓜꓶ ꓡˍ ꓡꓳ꓿ ꓣꓳꓽ ꓐꓶꓻ ꓓꓳ ꓞꓳ ꓫꓵꓽ ꓐꓴ ꓥꓳꓽ ꓗꓪ by ꓕꓱ ꓕꓲ ꓘꓶ ꓮꓽ ꓘꓶ ꓟꓽ ꓣꓱꓽˍ ꓟ ꓡꓰ ꓡꓳ. ꓟꓳˍ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "can",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓐ ꓡ꓾ ꓓ꓾ ꓬꓰ ꓓ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "I can help you with your school assignments often, but I don’t have ability to make you pass the exam.",
+        "lisu": "ꓠꓴ ꓙꓳꓥ ꓕꓳ ꓶ ꓵ ꓢꓳˍ ꓟ ꓗꓪ ꓕꓲ ꓖꓺ ꓕꓲ ꓧꓪ, ꓠꓬ ꓥꓪ ꓬꓰ ꓙ ꓐ ꓡˍ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ꓾ ꓠꓴ ꓔꓯ ꓕꓳ ꓶ ꓘꓮꓳ ꓧꓪ. ꓡꓰ ꓓꓴ ꓬꓰ ꓖꓶ ꓠ, ꓟ ꓑꓷꓽ ꓢꓲ, ꓠꓽ ꓥꓪ ꓟꓽ ꓙꓳ꓿ (ꓠꓴ ꓚꓲ ꓛꓬ ꓢꓳ ꓢꓯꓼ ꓕꓵꓼˍ ꓗꓪ ꓡꓰꓽ ꓓ, ꓡꓳ꓿)",
+        "mm": ""
+      }]
+    }, {
+      "eng": "catch",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓣꓴ꓾ ꓠꓬ, ꓣꓴ꓾ ꓖꓼ ꓣꓴ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Akhi Ngua is trying to catch a hen in the garden.?",
+        "lisu": "ꓥꓪ. ꓮ.‐ꓘꓲ ꓠꓬ ꓪꓳꓽ ꓐꓱ ꓠꓯꓸꓼ ꓗꓪ ꓮ. ꓬ. ꓟꓺ ꓕꓲ ꓘ, ꓖꓼ ꓣꓴ ꓔꓬ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "catch up",
+      "eng_type": [{
+        "type": "phrasal"
+      }],
+      "lisu": "ꓛꓳ ꓖꓼ=",
+      "mm": "",
+      "syntax": []
+    }, {
+      "eng": "chance",
+      "eng_type": [{
+        "type": "n"
+      }, {
+        "type": "adj"
+      }],
+      "lisu": "ꓚꓲꓺ ꓧꓴꓲꓸꓼ꓿ ꓳ ꓗꓼ꓿{ ꓫꓵꓽ ꓧꓶꓴ.꓾ ꓥ ꓠꓬ ꓟꓲ. ꓡꓰ ꓖꓶ ꓡˍ ꓟ ꓫꓵꓽ }꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "God gave him another chance to win.",
+        "lisu": "ꓪꓴ‐ꓢ ꓡꓰ ꓬꓲ ꓔꓯ ꓧꓪ. ꓡꓰ ꓠ, ꓟ ꓚꓲ ꓧꓴꓲꓸꓼ ꓝꓮꓲ ꓕꓲ ꓓꓽ ꓖꓶ ꓗꓷꓳ꓿ ꓧꓪꓽ ꓒꓬꓰꓼ ꓔꓯ ꓮ. ꓔꓲ. ꓫꓱ.ˍ ꓡꓳ꓿ ꓖꓺ ꓧꓶꓺ꓾ ꓧꓪꓽ ꓒꓬꓰꓼ ꓠꓽ opportunity ꓥ꓿ ꓞꓳ ꓤ ꓡꓰ ꓧꓪ ꓟꓶꓻ꓾ ꓫꓬ, ꓣꓴ ꓐ ꓡˍ ꓫꓵꓽ ꓥꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "china",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓚꓳꓥ ꓗꓴꓷꓼ꓾ ꓧꓶ ꓟꓵꓽ꓿",
+      "mm": "",
+      "syntax": []
+    }, {
+      "eng": "church",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓪꓽ ꓘꓴ ꓦꓲ꓾ ꓢꓲꓽ ꓫꓬꓻ ꓦꓲ꓿ ꓘꓴ‐ꓜꓲ‐ꓞꓳ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Church is a place where Christians worship God in group.",
+        "lisu": "ꓪꓽ ꓘꓴ ꓦꓲ ꓠꓬ ꓙꓲ ꓢꓴ ꓢꓲ ꓤꓼ ꓐꓴ ꓕꓲ ꓠꓲ, ꓕꓲ ꓪˍ ꓪꓴ‐ꓢ ꓔꓯ ꓪꓴ. ꓓꓵ ꓕꓱꓼ ꓔꓶ. ꓥ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "circle",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓚꓳ ꓡꓴ.꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Build a circle shape wooden house.",
+        "lisu": "ꓚꓳ ꓡꓴ. ꓒꓬꓱꓽ ꓢꓲ, ꓘꓪ. ꓦꓲ ꓕꓲ ꓢꓶ ꓫꓬ,꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "color",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓬꓲ ꓢꓷꓽ꓿ ꓤ. ꓒꓬꓱꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "What is your favorite color?",
+        "lisu": "ꓠꓴ ꓮꓽ ꓘꓶ ꓫꓲꓽ ꓧꓪˍ ꓟ ꓬꓲ ꓢꓷꓽ ꓠꓬ ꓮ. ꓫꓵꓽ  ꓥ ꓡ?",
+        "mm": ""
+      }]
+    }, {
+      "eng": "college",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓘꓳ. ꓡꓲꓼ꓿ ꓘꓳ. ꓡꓲꓼ ꓙꓳꓥꓽ꓿ ꓔ, ꓫꓬꓳꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "There are ten college students in our village?",
+        "lisu": "ꓣꓳꓽ ꓘ, ꓗꓪ ꓘꓳ. ꓡꓲꓼ ꓙꓳꓥꓽ ꓢꓳ ꓤ 10 ꓙꓳˍ ꓡꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "come",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓡꓻ꓾ ꓛꓲ ꓡꓻ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "I have come to see you, my dad.",
+        "lisu": "ꓥꓪ ꓠꓴ ꓔꓯ ꓡ ꓜꓲꓻ ꓡ ꓟ ꓥ ꓡꓳ꓾ ꓐ, ꓐꓽꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "computer",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓗꓳ ꓑꓬꓴ ꓔꓺ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Windows is the first computer operating system.",
+        "lisu": "ꓪꓲꓥ‐ꓓꓳ, ꓠꓬ ꓗꓳ‐ꓑꓬꓴ‐ꓔ ꓔꓯ ꓟꓬꓱꓽ ꓬꓰ ꓝꓲ ꓓꓴ ꓢꓲ‐ꓢꓶ‐ꓔꓯꓺ ꓪꓴ. ꓠꓷ. ꓥꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "cone",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓦ ꓜꓱꓼ ꓡꓴꓻ꓿",
+      "mm": "",
+      "syntax": []
+    }, {
+      "eng": "cone shaped cup",
+      "eng_type": [{
+        "type": "phrase"
+      }],
+      "lisu": "ꓦ ꓜꓱꓼ ꓗꓴꓰ.꓿",
+      "mm": "",
+      "syntax": [{
+        "lisu": "ꓦ ꓜꓱꓼ ꓠꓬ ꓦ ꓐꓬꓱꓽ ꓙꓳˍ ꓡꓳ꓿ ꓢ ꓜꓱꓼ ꓠꓽ ꓟꓽ ꓥ꓿ ꓦ ꓒꓬꓱꓽ ꓗꓴꓰ.꓾ ꓥˍ ꓠꓬ ꓦ ꓒꓬꓱꓽ ꓡꓴꓻ ꓐꓯ ꓛꓵꓳ꓿"
+      }]
+    }, {
+      "eng": "count",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓵ꓿ ꓵ ꓠꓬꓲ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Can you count how many fish in this pond?",
+        "lisu": " ꓥꓪ. ꓐꓱ ꓕꓱ ꓟ ꓠꓯꓸꓼ ꓥꓪ.  ꓮ ꓟꓬ ꓘ, ꓓꓯ, ꓟ ꓠꓴ ꓵ ꓐ ꓡˍ ꓡ? ",
+        "mm": ""
+      }]
+    }, {
+      "eng": "country",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓗꓴꓷꓼ꓿ ꓟꓵꓽ꓾ ꓪꓽ ꓚꓲ ꓟꓵꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "My country is the U.S.A.",
+        "lisu": " ꓥꓪ ꓗꓴꓷ ꓠꓬ ꓟꓷꓽ ꓗꓴꓷꓼ ꓥꓳ꓿",
+        "mm": ""
+      }, {
+        "eng": "Western country is my favorite music.",
+        "lisu": "ꓐꓶꓻ ꓓꓵꓽ ꓪꓽ ꓚꓲ ꓪꓽ ꓐꓽ ꓟꓵꓽ ꓟꓴꓖꓪꓽ ꓠꓬ ꓥꓪ ꓮ. ꓓꓲꓽ ꓠꓵˍ ꓟ ꓟꓴꓖꓪ ꓥꓳ꓿ ( ꓪꓽ ꓚꓲ ꓪꓽ ꓐꓽ ꓟꓵꓽ ꓗꓪ ꓔꓬ ꓢꓴ ꓐꓴ ꓟꓬꓽ ꓠꓬꓲ ꓖꓪ ꓛꓵˍ ꓟ ꓟꓴꓖꓪ ꓕꓱ ꓟ ꓔꓯ “ꓞꓳ ꓟꓳꓽ ꓪꓽ ꓡꓵꓺ ꓟꓴ : ꓖꓪ” ꓐꓯˍ ꓟꓲ ꓧꓳ,ˍˍ ꓡꓳ꓿)",
+        "mm": ""
+      }]
+    }, {
+      "eng": "court",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓢꓲ, ꓘꓶ ꓦꓲ꓿ ꓐꓯ ꓟꓴ ꓫꓬ, ꓦꓲ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "The judge at the court finally ruled out the villagers’ dispute over a trifle.",
+        "lisu": "ꓬꓲ ꓟꓶ ꓕꓯ꓾ ꓐꓯ ꓟꓴ ꓦꓲ ꓗꓪ ꓢꓲ, ꓓꓶꓺ ꓒ (ꓐꓯ ꓟꓴ ꓞꓷ, ꓒ) ꓡꓰ꓾ ꓕꓲ ꓫꓵꓽ ꓟꓽ ꓥˍ ꓟ ꓘ, ꓤ ꓡꓳ ꓤ ꓐꓴ ꓫꓵꓽ ꓪꓴꓻ ꓔꓯ ꓠꓽ ꓡꓰ ꓝꓲꓳ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "criminal",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓙꓵꓽ ꓗ ꓞꓳ. ꓢꓴ꓾ ꓞꓳ ꓥꓶꓺ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": " The criminals and lawless generally ended as homeless although they were not the poor.",
+        "lisu": "ꓞꓳ ꓥꓶꓺ ꓐꓰ ꓙꓵꓽ ꓗꓺ ꓔꓯ ꓞꓳ. ꓢꓴ ꓬꓲꓮ ꓦꓬꓼ ꓠꓬꓲ ꓠꓬ ꓦꓲ ꓟꓽ ꓙꓳ ꓗꓪ ꓟꓽ ꓙꓳ ꓗꓪ ꓡꓳ, ꓬꓰˍ ꓟꓲ꓾ ꓬꓲ ꓚꓽ ꓐꓯ ꓕꓯ ꓬꓲ ꓪꓽ ꓠꓽ ꓞꓳ ꓫ ꓟꓽ ꓥ꓿",
+        "mm": ""
+      }]
+    }, {
+      "eng": "cup",
+      "eng_type": [{
+        "type": "n"
+      }],
+      "lisu": "ꓗꓴꓰ. ꓗꓴꓰ.꓾ ꓑꓷꓺ꓾ ꓗꓷ.꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "Can you give me a glass of water?",
+        "lisu": "ꓬꓲꓻ ꓙꓬ ꓕꓲ ꓗꓷ. ꓤꓼ ꓖꓶ ꓓꓳ ꓓˍ ꓡ? ",
+        "mm": ""
+      }]
+    }, {
+      "eng": "cut",
+      "eng_type": [{
+        "type": "v"
+      }],
+      "lisu": "ꓓꓶꓺ꓾ ꓘꓶ꓾ ꓕꓳ,꓾ ꓞꓶ꓾ ꓐꓬꓼ꓾ ꓛꓵꓻ꓾ ꓝꓱꓺ꓾ ꓫꓳꓽ꓿",
+      "mm": "",
+      "syntax": [{
+        "eng": "cut, cut, cut. We must not cut the expense on food and drink.",
+        "lisu": "ꓜ ꓓꓳꓻ ꓓꓴ ꓗꓪ ꓣꓱꓽ ꓠ, ꓟ ꓒꓴ ꓔꓯ ꓓꓶꓺ ꓟꓽ ꓛꓵ꓿ ",
+        "mm": ""
+      }]
+    }
+  ]
 }

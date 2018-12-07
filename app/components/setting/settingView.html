@@ -1,61 +1,61 @@
 <p class="h3">
-    Settings
+  Settings
 </p>
 <div class="row">
-    <div class="cell">
-        <form name="addUser">
-            <div class="row mt-2">
-                <div class="cell-md-12">
-                    <label for="email">Email</label>
-                    <input type="text" class="mt-1" ng-model="user.Email" data-role="input" placeholder="Please enter email">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="cell-md-12">
-                    <label for="username">Username</label>
-                    <input type="text" class="mt-1" ng-model="user.username" data-role="input" placeholder="Please enter username.">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="cell-md-12">
-                    <label for="">Address</label>
-                    <textarea data-role="textarea" ng-model="user.address" data-auto-size="true" data-max-height="200"></textarea>
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="cell-md-12">
-                    <input type="reset" class="button" value="Reset">
-                    <input type="button" ng-click="adduser(user)" class="button secondary" value="Button">
-                </div>
-            </div>
-        </form>
-    </div>
+  <div class="cell">
+    <form name="addUser">
+      <div class="row mt-2">
+        <div class="cell-md-12">
+          <label for="email">Email</label>
+          <input type="text" class="mt-1" ng-model="user.Email" data-role="input" placeholder="Please enter email">
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="cell-md-12">
+          <label for="username">Username</label>
+          <input type="text" class="mt-1" ng-model="user.username" data-role="input" placeholder="Please enter username.">
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="cell-md-12">
+          <label for="">Address</label>
+          <textarea data-role="textarea" ng-model="user.address" data-auto-size="true" data-max-height="200"></textarea>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="cell-md-12">
+          <input type="reset" class="button" value="Reset">
+          <input type="button" ng-click="adduser(user)" class="button secondary" value="Button">
+        </div>
+      </div>
+    </form>
+  </div>
 </div>
 <!-- display  -->
 <div class="row mt-4">
-    <div class="cell">
-        <table class="table striped cell-border table-border mt-4">
-            <thead>
-                <tr>
-                    <th>Username</th>
-                    <th>Email</th>
-                    <th>Address</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr data-ng-repeat="user in users">
-                    <td>{{ user.username }}</td>
-                    <td>{{ user.email }}</td>
-                    <td>{{ user.address }}</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Username</th>
-                    <th>Email</th>
-                    <th>Address</th>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
+  <div class="cell">
+    <table class="table striped cell-border table-border mt-4">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-ng-repeat="user in users">
+          <td>{{ user.username }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.address }}</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
 </div>
