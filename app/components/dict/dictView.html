@@ -110,12 +110,30 @@
 <div class="dialog" data-role="dialog" id="addFormDialog">
 	<div class="dialog-title">Add New Word</div>
 	<div class="dialog-content">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id beatae nisi libero dolorum non? Ullam similique,
-			et accusantium quas magni tempora voluptas quibusdam quo tempore ducimus praesentium repellendus voluptatem
-			itaque?</p>
+		<!-- <form name="addform"> -->
+		<div class="input-wrapper">
+			<input type="text" class="mt-2" placeholder="Eng Word" ng-model="newWord.engWord">
+			<input type="text" class="mt-2" placeholder="Eng Type" ng-model="newWord.engType">
+			<input type="text" class="mt-2" placeholder="LIsu Word" ng-model="newWord.lisuWord">
+			<input type="text" class="mt-2" placeholder="MM Word" ng-model="newWord.mmWord">
+			<div class="syntax">
+				<label for="syntax">Syntax </label>
+				<div class="syntaxs">
+					<input type="text" class="mt-2" placeholder="Eng Syntax" ng-model="newWord.engSyntax">
+					<input type="text" class="mt-2" placeholder="Lisu Syntax" ng-model="newWord.lisuSyntax">
+					<input type="text" class="mt-2" placeholder="MM Syntax" ng-model="newWord.mmSyntax">
+				</div>
+				<div class="syntaxs">
+					<input type="text" class="mt-2" placeholder="Eng Syntax" ng-model="newWord.engSyntax1">
+					<input type="text" class="mt-2" placeholder="Lisu Syntax" ng-model="newWord.lisuSyntax1">
+					<input type="text" class="mt-2" placeholder="MM Syntax" ng-model="newWord.mmSyntax1">
+				</div>
+			</div>
+		</div>
+		<!-- </form> -->
 	</div>
 	<div class="dialog-actions text-right">
 		<button class="button js-dialog-close">Close</button>
-		<button class="button success" ng-click="saveData()">Save Change</button>
+		<button class="button info" ng-click="saveData(newWord)">Save Change</button>
 	</div>
 </div>

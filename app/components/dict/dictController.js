@@ -5,7 +5,11 @@ angular.module('dictionary').controller('dictCtrl', [
 	function($scope, dictService, $http) {
 		console.log('You are loading dict Controller');
 		const storage = require('electron-storage');
-		console.log(storage);
+		const fs = require('fs');
+
+		$scope.newWord = {
+			engType: ''
+		};
 		$scope.key_words = '';
 		$scope.eng_word = '';
 		$scope.unvalid = false;
@@ -190,20 +194,64 @@ angular.module('dictionary').controller('dictCtrl', [
 		};
 
 		// @saveData
-		$scope.saveData = function() {
-			storage.isPathExists('test.json')
-				.then(itDoes => {
-					if (itDoes) {
-						storage.get('test')
-							.then(data => {
-								console.log(data);
-							})
-							.catch(err => {
-								console.error(err);
-							});
+		$scope.saveData = function(data) {
+
+			var engType = data.engType.split(',');
+			var engTypeObj = [];
+			engType.forEach(type => {
+				console.log(type);
+				var obj = {
+					"name": type
+				};
+				engTypeObj.push(obj);
+			});
+
+			var syntaxs = [];
+			if (data.engSyntax1) {
+				var synObj1 = {
+					"eng": data.engSyntax1 ? data.engSyntax1 : "",
+					"lisu": data.lisuSyntax1 ? data.lisuSyntax1 : "",
+					"mm": data.mmSyntax1 ? data.mmSyntax1 : ""
+				};
+				syntaxs.push(synObj1);
+			}
+
+			if (data.engSyntax) {
+				var synObj = {
+					"eng": data.engSyntax ? data.engSyntax : "",
+					"lisu": data.lisuSyntax ? data.lisuSyntax : "",
+					"mm": data.mmSyntax ? data.mmSyntax : ""
+				};
+				syntaxs.push(synObj);
+			}
+
+			var obj = {
+				data: []
+			};
+			var pushData = {
+				"eng": data.engWord,
+				"eng_type": engTypeObj,
+				"lisu": data.lisuWord,
+				"mm": data.mmWord ? data.mmWord : '',
+				"syntax": syntaxs
+			};
+			console.log(pushData);
+
+			fs.readFile('test.json', 'utf8', function(err, data) {
+				if (err) {
+					console.log(err);
+				} else {
+					if (data) {
+						obj = JSON.parse(data);
 					}
-				});
-		}
+					obj.data.push(pushData);
+					var saveData = JSON.stringify(obj);
+					fs.writeFile('test.json', saveData, 'utf8', (data) => {
+						Metro.dialog.close('#addFormDialog');
+					}); // write it back 
+				}
+			});
+		};
 
 		$scope.initFun();
 		console.log('Dict Controller end.');
