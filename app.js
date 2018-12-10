@@ -48,7 +48,13 @@ function createDefaultWindow() {
 
 app.on('ready', function() {
   createDefaultWindow();
-  autoUpdater.checkForUpdates();
+
+  if (isDev) {
+    console.log('Running in development');
+  } else {
+    console.log('Running in production');
+    autoUpdater.checkForUpdates();
+  }
   // autoUpdater.checkForUpdatesAndNotify();
 });
 

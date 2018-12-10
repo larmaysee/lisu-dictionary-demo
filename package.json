@@ -1,6 +1,6 @@
 {
   "name": "lisu-dictionary",
-  "version": "0.3.9",
+  "version": "0.4.0",
   "description": "LI-SU Myanmar mini Dictionary for window.",
   "main": "app.js",
   "scripts": {
@@ -36,8 +36,7 @@
     "electron-log": "^2.2.17",
     "electron-storage": "^1.0.7",
     "electron-updater": "^3.1.2",
-    "oclazyload": "^1.1.0",
-    "pouchdb": "^7.0.0"
+    "oclazyload": "^1.1.0"
   },
   "devDependencies": {
     "electron-builder": "^20.28.4"
