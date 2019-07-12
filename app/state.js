@@ -16,8 +16,7 @@ dictionary.config([
                 [
                   'app/components/dict/dictService.js',
                   'app/components/dict/dictController.js'
-                ],
-                {
+                ], {
                   serie: true
                 }
               );
@@ -38,8 +37,7 @@ dictionary.config([
                 [
                   'app/components/setting/settingService.js',
                   'app/components/setting/settingController.js'
-                ],
-                {
+                ], {
                   serie: true
                 }
               );

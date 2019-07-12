@@ -3,14 +3,16 @@
     <nav class="navview-pane">
       <div class="sidebar-nav">
         <div class="suggest-box">
-          <input type="text" class="searchDic" ng-keyup="searchData(searchWord)" ng-model="searchWord" placeholder="Search word">
+          <input type="text" class="searchDic" ng-keyup="searchData(searchWord)" ng-model="searchWord"
+            placeholder="Search word">
           <button class="holder">
             <span class="mif-apps"></span>
           </button>
         </div>
         <ul class="data-list">
           <li ng-repeat="key_word in key_words | filter:searchWord">
-            <a ng-click="clickData(key_word.eng)" ng-class="{'active': ( $first && !activeClass)  || activeClass === key_word.eng}">
+            <a ng-click="clickData(key_word.eng)"
+              ng-class="{'active': ( $first && !activeClass)  || activeClass === key_word.eng}">
               <span>{{ key_word.eng }}</span>
             </a>
           </li>
@@ -33,11 +35,11 @@
               <span class="mif-plus"></span>
             </button>
           </li>
-          <li class="toggle-menu">
+          <!-- <li class="toggle-menu">
             <button class="cog-button" ng-click="mailBox()">
               <span class="mif-mail"></span>
             </button>
-          </li>
+          </li> -->
           <li class="toggle-menu">
             <button class="cog-button" ng-click="settingDialog()">
               <span class="mif-cog"></span>
