@@ -17,7 +17,7 @@ const isDev = require('electron-is-dev');
 
 var mainWindow = null;
 // Quit when all windows are closed.
-app.on('window-all-closed', function () {
+app.on('window-all-closed', function() {
   if (process.platform != 'darwin') {
     app.quit();
   }
@@ -43,12 +43,12 @@ function createDefaultWindow() {
   mainWindow.openDevTools();
   mainWindow.setMenu(null);
   // Emitted when the window is closed.
-  mainWindow.on('closed', function () {
+  mainWindow.on('closed', function() {
     mainWindow = null;
   });
 }
 
-app.on('ready', function () {
+app.on('ready', function() {
   createDefaultWindow();
   if (isDev) {
     console.log('Running in development');
@@ -91,7 +91,7 @@ autoUpdater.on('download-progress', progressObj => {
   sendStatusToWindow(log_message);
 });
 
-autoUpdater.on('update-downloaded', function (event, releaseName) {
+autoUpdater.on('update-downloaded', function(event, releaseName) {
   let message =
     app.getName() +
     ' ' +
